@@ -22,128 +22,140 @@
     <Filter Include="VisualGDB settings">
       <UniqueIdentifier>{e1f643cf-f7b8-4a23-ab15-c6204485e398}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Chimera">
-      <UniqueIdentifier>{42cef316-1d14-473e-b88e-1e787685d1f5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chimera\modules">
-      <UniqueIdentifier>{493d16c1-c7e8-4ade-9a80-8297218d2614}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chimera\modules\memory">
-      <UniqueIdentifier>{a7439d6f-835e-46cf-a475-04b84417080d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Thor">
-      <UniqueIdentifier>{71ac406d-0db1-4a28-aed1-d5139f7e732d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Thor\include">
-      <UniqueIdentifier>{38f27d87-bee7-4b7a-8991-140547fbe83c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Thor\source">
-      <UniqueIdentifier>{642dd08f-d9c3-4336-8444-11f44f9d4147}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7">
-      <UniqueIdentifier>{5d631e87-9c4b-4815-a6f7-d8967076b3cf}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7\Device">
-      <UniqueIdentifier>{d89d7dd2-9e18-40bd-b694-96fa0af3105a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7\Device\conf">
-      <UniqueIdentifier>{9589e8cb-d796-4f2c-b0c8-124ef0cca5e6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7\Device\include">
-      <UniqueIdentifier>{8743654c-9606-414b-8a1a-34c6f05de53e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7\Device\startup">
-      <UniqueIdentifier>{1578226a-0f9c-40ed-98cf-71fada1b3528}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7\Device\sys">
-      <UniqueIdentifier>{fc3addbe-f358-4db5-9dc8-5c230ffa3941}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7\STM32F7xx_HAL_Driver">
-      <UniqueIdentifier>{d0fe5791-8a7a-4bdf-a56d-377df51184b9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7\STM32F7xx_HAL_Driver\Inc">
-      <UniqueIdentifier>{9d513dd7-611a-4274-aae7-db2680f10c6f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7\STM32F7xx_HAL_Driver\Inc\Legacy">
-      <UniqueIdentifier>{88dff44d-7428-4dbb-bedb-125318e96ced}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="stm32hal_f7\STM32F7xx_HAL_Driver\Src">
-      <UniqueIdentifier>{41de58a5-8e07-4f15-a0f1-3534c4c06f93}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS">
-      <UniqueIdentifier>{df98c5d3-d93f-4d19-a1c7-d4f3b3de19e9}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS\config">
-      <UniqueIdentifier>{4274362b-4b7f-4f8f-b684-2767ed011de5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS\config\stm32">
-      <UniqueIdentifier>{a139d417-7020-4baa-9c48-eed39917c3c7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS\include">
-      <UniqueIdentifier>{595eaff0-e78a-4a81-b6a6-7baf0e6ebea3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS\portable">
-      <UniqueIdentifier>{1ac0dc72-e175-4cdc-8343-1d0a91fa797f}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS\portable\Common">
-      <UniqueIdentifier>{04c5c4ea-7113-4246-a6f3-6d85226dc1e6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS\portable\GCC">
-      <UniqueIdentifier>{ee20d13c-3f32-4812-8071-2e19a1f9bbd8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS\portable\GCC\ARM_CM7">
-      <UniqueIdentifier>{f550dd43-6249-4c9d-8cc0-21dc112e01ee}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS\portable\GCC\ARM_CM7\r0p1">
-      <UniqueIdentifier>{1ee76d60-5d0b-4568-b137-c34aa2023c22}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="FreeRTOS\portable\MemMang">
-      <UniqueIdentifier>{099ec818-0030-4908-84b7-96f9cf9d91bc}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source files\Device-specific files\Semihosting/Profiler">
       <UniqueIdentifier>{e64c46ce-7e98-4aa6-b6a9-90be6c76f683}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header files\Device-specific files\Semihosting/Profiler">
       <UniqueIdentifier>{0fb92549-054f-489d-9207-177fb529c8de}</UniqueIdentifier>
     </Filter>
-    <Filter Include="at45db">
-      <UniqueIdentifier>{df76468a-a82d-42f1-82c0-ab8b43370c88}</UniqueIdentifier>
+    <Filter Include="Chimera">
+      <UniqueIdentifier>{6b05bcb8-f8d3-4547-9475-a96f55e17f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chimera\modules">
+      <UniqueIdentifier>{d08e22a7-3c1a-4f8e-b338-7e134df0aea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chimera\modules\memory">
+      <UniqueIdentifier>{2c84633c-c232-4762-b34f-44c9d699e5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor">
+      <UniqueIdentifier>{13ec03ae-35b5-40fb-800f-6dbcb3d1eb3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib">
+      <UniqueIdentifier>{a7a85e8c-fc7d-4745-ad11-dbeb4b629178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\FreeRTOS">
+      <UniqueIdentifier>{6778804b-fa1e-4725-9979-399789369252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\FreeRTOS\include">
+      <UniqueIdentifier>{7460656d-9046-401d-871e-f33ae3f93807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\FreeRTOS\portable">
+      <UniqueIdentifier>{6a199a1f-e1cd-4c16-bc59-d26831585a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\FreeRTOS\portable\Common">
+      <UniqueIdentifier>{9c8d467e-7d8f-4a53-96c5-2f3a4f89b8ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\FreeRTOS\portable\GCC">
+      <UniqueIdentifier>{80b59168-751e-4c1b-bbd2-872b42587df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\FreeRTOS\portable\GCC\ARM_CM7">
+      <UniqueIdentifier>{8de412d6-1893-48ce-931e-d54b35762b5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1">
+      <UniqueIdentifier>{4ed37151-b211-428c-9b92-3124bbdb0dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\FreeRTOS\portable\MemMang">
+      <UniqueIdentifier>{c939ff9c-e46f-43b3-8467-9693fe35291b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7">
+      <UniqueIdentifier>{1c432ca1-d3e6-483f-a835-fd1609809b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7\Device">
+      <UniqueIdentifier>{6742b970-44d8-44b1-aec7-d3918ccd62cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7\Device\conf">
+      <UniqueIdentifier>{d901420b-7cd1-4786-99f9-b62cede84b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7\Device\include">
+      <UniqueIdentifier>{0fdceab4-c26e-4d7a-bebf-5b6a79d92d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7\Device\startup">
+      <UniqueIdentifier>{60d74f56-5cb3-4bb7-b6b8-499ae4867fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7\Device\sys">
+      <UniqueIdentifier>{f0ee2302-c331-4b09-97d0-6b5b38c16bea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver">
+      <UniqueIdentifier>{24dd0fac-81ac-483c-bbac-c1de74420e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc">
+      <UniqueIdentifier>{8dfa0a9a-138f-482c-a37c-1b41a0e03588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\Legacy">
+      <UniqueIdentifier>{4209870c-7209-4187-a363-db3f3561d076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src">
+      <UniqueIdentifier>{9f45e053-f424-4f3b-ae20-a66099f91ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\Thor">
+      <UniqueIdentifier>{eb621a8e-3fe1-4458-a180-eb1a334c0d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\Thor\include">
+      <UniqueIdentifier>{6e4e3695-f7f8-4e9f-8175-328516fe9bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thor\Thor\source">
+      <UniqueIdentifier>{49688436-ddfd-4f0b-8be3-0800620116d9}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge">
-      <UniqueIdentifier>{1db92b87-d4cf-4630-8d5d-1131cf0ca434}</UniqueIdentifier>
+      <UniqueIdentifier>{18ad40f5-bd4e-4307-943e-2c350fb41802}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\core">
-      <UniqueIdentifier>{0e1e499f-8e1d-41cc-8869-81f90fb4f9be}</UniqueIdentifier>
+      <UniqueIdentifier>{7d5c2773-e5a0-46e9-9982-c60898254529}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\core\driver">
-      <UniqueIdentifier>{6e29ed5e-2a4c-453d-982c-36b10b5b2394}</UniqueIdentifier>
+      <UniqueIdentifier>{431016c7-2399-4e7b-8b32-d49d2fdb1a97}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\core\include">
-      <UniqueIdentifier>{334e119b-77a0-49c6-b626-26c7a8713487}</UniqueIdentifier>
+      <UniqueIdentifier>{fee731d5-9b5d-499c-a0dd-ffba7b7790ff}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\fse">
-      <UniqueIdentifier>{a8377302-4fd0-45bd-93a1-d15f81c9c6cc}</UniqueIdentifier>
+      <UniqueIdentifier>{7e14b129-156a-40ec-9189-fd95ee871bad}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\include">
-      <UniqueIdentifier>{464517cc-9428-43c8-8e13-6acdb853a658}</UniqueIdentifier>
+      <UniqueIdentifier>{f73a7b30-0fb7-45c5-b6ae-c2f0af8e3b8b}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\os">
-      <UniqueIdentifier>{ee6cfa23-f9ad-4747-b037-b34e590df3e3}</UniqueIdentifier>
+      <UniqueIdentifier>{e6bdf1f1-ce61-4a2a-9ea8-efb5ea0da945}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\os\freertos">
-      <UniqueIdentifier>{d4f3f825-5f8b-4361-a113-86cd5fb8faa7}</UniqueIdentifier>
+      <UniqueIdentifier>{4172bdd4-b51b-4625-9e5a-76592e41aeb7}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\os\freertos\include">
-      <UniqueIdentifier>{980add7f-a6bb-4998-9e72-60e76a2ad2ac}</UniqueIdentifier>
+      <UniqueIdentifier>{1bebafc1-8e87-4f89-b0b3-a5a41c2075c7}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\os\freertos\services">
-      <UniqueIdentifier>{29ad8706-8edb-455d-9ccb-3ba432ea51cd}</UniqueIdentifier>
+      <UniqueIdentifier>{8efb7a58-8afa-43b3-8acf-3770082fac90}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\posix">
-      <UniqueIdentifier>{32877647-b0e7-4406-9b91-81796c83bfc7}</UniqueIdentifier>
+      <UniqueIdentifier>{2a0211f9-8919-44e7-904e-aa10516e94c7}</UniqueIdentifier>
     </Filter>
     <Filter Include="reliance-edge\util">
-      <UniqueIdentifier>{fad493b1-9767-4efd-b814-a71a8e0cd4d0}</UniqueIdentifier>
+      <UniqueIdentifier>{6e5e3210-196f-4105-a4cf-b23ba9956079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers">
+      <UniqueIdentifier>{65d415cf-ffdd-4f56-92e2-36ae862cc21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\FlashMemory">
+      <UniqueIdentifier>{d88dc326-7804-4016-887c-f2048bd382dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drivers\FlashMemory\at45db">
+      <UniqueIdentifier>{abae2178-b0f2-4583-9981-266c17892b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{285af7cb-c400-4701-b7ec-10c79a5139b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\config">
+      <UniqueIdentifier>{f29a6402-0554-4218-899c-f210fbb09ccb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -159,894 +171,6 @@
     <None Include="stm32.xml">
       <Filter>VisualGDB settings</Filter>
     </None>
-    <ClCompile Include="$(CHIMERA_ROOT)\Chimera\chimera.cpp">
-      <Filter>Chimera</Filter>
-    </ClCompile>
-    <ClCompile Include="$(CHIMERA_ROOT)\Chimera\logging.cpp">
-      <Filter>Chimera</Filter>
-    </ClCompile>
-    <ClCompile Include="$(CHIMERA_ROOT)\Chimera\threading.cpp">
-      <Filter>Chimera</Filter>
-    </ClCompile>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\assertion.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\chimera.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\clock.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\config.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\gpio.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\interface.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\logging.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\preprocessor.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\serial.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\spi.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\system.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\threading.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\types.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\utilities.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\watchdog.hpp">
-      <Filter>Chimera</Filter>
-    </ClInclude>
-    <ClInclude Include="$(CHIMERA_ROOT)\Chimera\modules\memory\flash.hpp">
-      <Filter>Chimera\modules\memory</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\boostStub.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\chimeraPort.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\clock.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\config.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\core.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\defaults.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\definitions.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\exceptions.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\exti.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\flags.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\FreeRTOSConfig.h">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\gdb.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\gpio.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\headers.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\i2c.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\interrupt.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\macro.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\mem.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\nucleo.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\preprocessor.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\print.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\pwm.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\ringbuffer.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\rpc.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\serial.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\spi.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\system.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\thor.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\threads.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\timer.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\types.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\uart.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\usart.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\utilities.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\Thor\include\watchdog.hpp">
-      <Filter>Thor\include</Filter>
-    </ClInclude>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\boostStub.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\clock.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\defaults.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\definitions.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\exceptions.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\exti.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\flags.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\gdb.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\gpio.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\i2c.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\interrupt.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\mem.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\nucleo.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\print.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\pwm.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\ringbuffer.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\rpc.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\serial.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\spi.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\thor.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\thor_timer.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\thor_watchdog.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\threads.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\uart.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\usart.cpp">
-      <Filter>Thor\source</Filter>
-    </ClCompile>
-    <None Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\CMakeLists.txt">
-      <Filter>stm32hal_f7</Filter>
-    </None>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\Device\conf\stm32f7xx_hal_conf.h">
-      <Filter>stm32hal_f7\Device\conf</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\Device\include\stm32f767xx.h">
-      <Filter>stm32hal_f7\Device\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\Device\include\stm32f7xx.h">
-      <Filter>stm32hal_f7\Device\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\Device\include\system_stm32f7xx.h">
-      <Filter>stm32hal_f7\Device\include</Filter>
-    </ClInclude>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\Device\startup\startup_stm32f767xx.c">
-      <Filter>stm32hal_f7\Device\startup</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\Device\sys\system_stm32f7xx.c">
-      <Filter>stm32hal_f7\Device\sys</Filter>
-    </ClCompile>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_adc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_adc_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_can.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cec.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cortex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_crc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_crc_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cryp.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cryp_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dac.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dac_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dcmi.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dcmi_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_def.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dfsdm.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma2d.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dsi.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_eth.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_hash.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_hash_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_hcd.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2s.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_irda.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_irda_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_iwdg.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_jpeg.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_lptim.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_ltdc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_ltdc_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_mdios.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_mmc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_nand.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_nor.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pcd.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pcd_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_qspi.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rng.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rtc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rtc_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sai.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sai_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sd.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sdram.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_smartcard.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_smartcard_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_smbus.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_spdifrx.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_spi.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sram.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_uart.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_uart_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_usart.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_usart_ex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_wwdg.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_adc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_bus.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_cortex.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_crc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_dac.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_dma.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_dma2d.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_exti.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_fmc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_gpio.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_i2c.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_iwdg.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_lptim.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_pwr.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_rcc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_rng.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_rtc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_sdmmc.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_spi.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_system.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_tim.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_usart.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_usb.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_utils.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_wwdg.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\Legacy\stm32f7xx_hal_can_legacy.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc\Legacy</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Inc\Legacy</Filter>
-    </ClInclude>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_can.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cec.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cryp.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cryp_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dac.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dac_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dcmi.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dcmi_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dfsdm.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma2d.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dsi.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_eth.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_hash.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_hash_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_hcd.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2s.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_irda.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_iwdg.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_jpeg.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_lptim.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_mdios.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_mmc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_nand.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_nor.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pcd.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pcd_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_qspi.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rng.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sai.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sai_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sd.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sdram.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_smartcard.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_smartcard_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_smbus.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_spdifrx.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_spi.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sram.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_usart.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_wwdg.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_adc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_crc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_dac.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_dma.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_dma2d.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_exti.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_fmc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_gpio.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_i2c.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_lptim.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_pwr.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_rcc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_rng.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_rtc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_sdmmc.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_spi.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_tim.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_usart.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_usb.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_utils.c">
-      <Filter>stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\croutine.c">
-      <Filter>FreeRTOS</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\event_groups.c">
-      <Filter>FreeRTOS</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\list.c">
-      <Filter>FreeRTOS</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\queue.c">
-      <Filter>FreeRTOS</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\stream_buffer.c">
-      <Filter>FreeRTOS</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\tasks.c">
-      <Filter>FreeRTOS</Filter>
-    </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\timers.c">
-      <Filter>FreeRTOS</Filter>
-    </ClCompile>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\config\stm32\FreeRTOSConfig.h">
-      <Filter>FreeRTOS\config\stm32</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\croutine.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\deprecated_definitions.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\event_groups.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\FreeRTOS.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\list.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\message_buffer.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\mpu_prototypes.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\mpu_wrappers.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\portable.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\projdefs.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\queue.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\semphr.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\StackMacros.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\stack_macros.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\stream_buffer.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\task.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\include\timers.h">
-      <Filter>FreeRTOS\include</Filter>
-    </ClInclude>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\portable\Common\mpu_wrappers.c">
-      <Filter>FreeRTOS\portable\Common</Filter>
-    </ClCompile>
-    <None Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\ReadMe.txt">
-      <Filter>FreeRTOS\portable\GCC\ARM_CM7</Filter>
-    </None>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1\port.c">
-      <Filter>FreeRTOS\portable\GCC\ARM_CM7\r0p1</Filter>
-    </ClCompile>
-    <ClInclude Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1\portmacro.h">
-      <Filter>FreeRTOS\portable\GCC\ARM_CM7\r0p1</Filter>
-    </ClInclude>
-    <ClCompile Include="$(THOR_ROOT)\Thor\lib\FreeRTOS\portable\MemMang\heap_4.c">
-      <Filter>FreeRTOS\portable\MemMang</Filter>
-    </ClCompile>
     <ClCompile Include="$(EFP_BASE)\Profiler\FastSemihosting.cpp">
       <Filter>Source files\Device-specific files\Semihosting/Profiler</Filter>
     </ClCompile>
@@ -1077,208 +201,1101 @@
     <ClInclude Include="$(EFP_BASE)\Profiler\DebuggerChecker.h">
       <Filter>Header files\Device-specific files\Semihosting/Profiler</Filter>
     </ClInclude>
-    <ClCompile Include="$(GIT_ROOT)\DeviceDrivers\FlashMemory\at45db\at45db081.cpp">
-      <Filter>at45db</Filter>
+    <ClCompile Include="..\..\..\..\..\lib\Chimera\Chimera\chimera.cpp">
+      <Filter>Chimera</Filter>
     </ClCompile>
-    <ClInclude Include="$(GIT_ROOT)\DeviceDrivers\FlashMemory\at45db\at45db081.hpp">
-      <Filter>at45db</Filter>
+    <ClCompile Include="..\..\..\..\..\lib\Chimera\Chimera\logging.cpp">
+      <Filter>Chimera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Chimera\Chimera\threading.cpp">
+      <Filter>Chimera</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\assertion.hpp">
+      <Filter>Chimera</Filter>
     </ClInclude>
-    <ClInclude Include="$(GIT_ROOT)\DeviceDrivers\FlashMemory\at45db\at45db081_definitions.hpp">
-      <Filter>at45db</Filter>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\chimera.hpp">
+      <Filter>Chimera</Filter>
     </ClInclude>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\blockio.c">
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\clock.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\config.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\gpio.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\interface.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\logging.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\preprocessor.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\serial.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\spi.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\system.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\threading.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\types.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\utilities.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\watchdog.hpp">
+      <Filter>Chimera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\flash.hpp">
+      <Filter>Chimera\modules\memory</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\croutine.c">
+      <Filter>Thor\lib\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\event_groups.c">
+      <Filter>Thor\lib\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\list.c">
+      <Filter>Thor\lib\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\queue.c">
+      <Filter>Thor\lib\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\stream_buffer.c">
+      <Filter>Thor\lib\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\tasks.c">
+      <Filter>Thor\lib\FreeRTOS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\timers.c">
+      <Filter>Thor\lib\FreeRTOS</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\croutine.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\deprecated_definitions.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\event_groups.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\FreeRTOS.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\list.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\message_buffer.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\mpu_prototypes.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\mpu_wrappers.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\portable.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\projdefs.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\queue.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\semphr.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\StackMacros.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\stack_macros.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\stream_buffer.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\task.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\include\timers.h">
+      <Filter>Thor\lib\FreeRTOS\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\portable\Common\mpu_wrappers.c">
+      <Filter>Thor\lib\FreeRTOS\portable\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1\port.c">
+      <Filter>Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1\portmacro.h">
+      <Filter>Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\FreeRTOS\portable\MemMang\heap_4.c">
+      <Filter>Thor\lib\FreeRTOS\portable\MemMang</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\conf\stm32f7xx_hal_conf.h">
+      <Filter>Thor\lib\stm32hal_f7\Device\conf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\include\stm32f767xx.h">
+      <Filter>Thor\lib\stm32hal_f7\Device\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\include\stm32f7xx.h">
+      <Filter>Thor\lib\stm32hal_f7\Device\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\include\system_stm32f7xx.h">
+      <Filter>Thor\lib\stm32hal_f7\Device\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\startup\startup_stm32f767xx.c">
+      <Filter>Thor\lib\stm32hal_f7\Device\startup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\sys\system_stm32f7xx.c">
+      <Filter>Thor\lib\stm32hal_f7\Device\sys</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_adc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_adc_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_can.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cec.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cortex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_crc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_crc_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cryp.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cryp_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dac.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dac_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dcmi.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dcmi_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_def.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dfsdm.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma2d.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dsi.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_eth.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_hash.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_hash_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_hcd.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2s.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_irda.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_irda_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_iwdg.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_jpeg.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_lptim.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_ltdc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_ltdc_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_mdios.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_mmc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_nand.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_nor.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pcd.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pcd_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_qspi.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rng.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rtc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rtc_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sai.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sai_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sd.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sdram.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_smartcard.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_smartcard_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_smbus.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_spdifrx.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_spi.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_sram.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_uart.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_uart_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_usart.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_usart_ex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_wwdg.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_adc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_bus.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_cortex.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_crc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_dac.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_dma.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_dma2d.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_exti.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_fmc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_gpio.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_i2c.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_iwdg.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_lptim.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_pwr.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_rcc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_rng.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_rtc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_sdmmc.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_spi.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_system.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_tim.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_usart.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_usb.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_utils.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\stm32f7xx_ll_wwdg.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc\Legacy</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_adc_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_can.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cec.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cortex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_crc_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cryp.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_cryp_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dac.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dac_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dcmi.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dcmi_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dfsdm.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma2d.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dma_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_dsi.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_eth.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_flash_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_gpio.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_hash.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_hash_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_hcd.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2c_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_i2s.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_irda.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_iwdg.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_jpeg.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_lptim.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_ltdc_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_mdios.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_mmc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_nand.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_nor.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pcd.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pcd_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_pwr_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_qspi.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rcc_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rng.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_rtc_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sai.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sai_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sd.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sdram.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_smartcard.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_smartcard_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_smbus.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_spdifrx.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_spi.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_sram.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_tim_ex.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_uart.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_usart.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal_wwdg.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_adc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_crc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_dac.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_dma.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_dma2d.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_exti.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_fmc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_gpio.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_i2c.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_lptim.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_pwr.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_rcc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_rng.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_rtc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_sdmmc.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_spi.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_tim.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_usart.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_usb.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src\stm32f7xx_ll_utils.c">
+      <Filter>Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\boostStub.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\chimeraPort.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\clock.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\config.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\core.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\defaults.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\definitions.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\exceptions.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\exti.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\flags.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\gdb.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\gpio.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\headers.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\i2c.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\interrupt.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\macro.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\mem.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\nucleo.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\preprocessor.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\print.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\pwm.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\ringbuffer.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\rpc.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\serial.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\spi.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\system.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\thor.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\threads.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\timer.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\types.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\uart.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\usart.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\utilities.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\include\watchdog.hpp">
+      <Filter>Thor\Thor\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\boostStub.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\clock.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\defaults.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\definitions.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\exceptions.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\exti.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\flags.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\gdb.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\gpio.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\i2c.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\interrupt.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\mem.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\nucleo.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\print.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\pwm.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\ringbuffer.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\rpc.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\serial.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\spi.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\thor.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\thor_core.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\thor_timer.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\thor_watchdog.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\threads.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\uart.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Processor\Thor\Thor\Thor\source\usart.cpp">
+      <Filter>Thor\Thor\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\blockio.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\buffer.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\buffer.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\core.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\core.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\dir.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\dir.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\format.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\format.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\imap.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\imap.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\imapextern.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\imapextern.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\imapinline.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\imapinline.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\inode.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\inode.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\inodedata.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\inodedata.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\core\driver\volume.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\core\driver\volume.c">
       <Filter>reliance-edge\core\driver</Filter>
     </ClCompile>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\core\include\redcore.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\core\include\redcore.h">
       <Filter>reliance-edge\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\core\include\redcoremacs.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\core\include\redcoremacs.h">
       <Filter>reliance-edge\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\core\include\redcorevol.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\core\include\redcorevol.h">
       <Filter>reliance-edge\core\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\core\include\rednodes.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\core\include\rednodes.h">
       <Filter>reliance-edge\core\include</Filter>
     </ClInclude>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\fse\fse.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\fse\fse.c">
       <Filter>reliance-edge\fse</Filter>
     </ClCompile>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redapimacs.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redapimacs.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redconfigchk.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redconfigchk.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redcoreapi.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redcoreapi.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\reddeviations.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\reddeviations.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\rederrno.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\rederrno.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redexclude.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redexclude.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redfs.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redfs.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redfse.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redfse.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redgetopt.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redgetopt.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redmacs.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redmacs.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redmisc.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redmisc.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redosserv.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redosserv.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redpath.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redpath.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redposix.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redposix.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redstat.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redstat.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redtests.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redtests.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redtestutils.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redtestutils.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redtoolcmn.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redtoolcmn.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redtools.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redtools.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redutils.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redutils.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redver.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redver.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\include\redvolume.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\include\redvolume.h">
       <Filter>reliance-edge\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\include\redosdeviations.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\include\redosdeviations.h">
       <Filter>reliance-edge\os\freertos\include</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\include\redostypes.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\include\redostypes.h">
       <Filter>reliance-edge\os\freertos\include</Filter>
     </ClInclude>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osassert.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osassert.c">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osbdev.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osbdev.c">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osclock.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osclock.c">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osmutex.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osmutex.c">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osoutput.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osoutput.c">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\ostask.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\ostask.c">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\ostimestamp.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\ostimestamp.c">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClCompile>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osbdev_asfsdmmc.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osbdev_asfsdmmc.h">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osbdev_custom.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osbdev_custom.h">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osbdev_fatfs.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osbdev_fatfs.h">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osbdev_fdriver.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osbdev_fdriver.h">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osbdev_ramdisk.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osbdev_ramdisk.h">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClInclude>
-    <ClInclude Include="$(GITHUB_ROOT)\\reliance-edge\os\freertos\services\osbdev_stm32sdio.h">
+    <ClInclude Include="..\..\..\..\..\lib\Modules\reliance-edge\os\freertos\services\osbdev_stm32sdio.h">
       <Filter>reliance-edge\os\freertos\services</Filter>
     </ClInclude>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\posix\path.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\posix\path.c">
       <Filter>reliance-edge\posix</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\posix\posix.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\posix\posix.c">
       <Filter>reliance-edge\posix</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\util\bitmap.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\util\bitmap.c">
       <Filter>reliance-edge\util</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\util\crc.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\util\crc.c">
       <Filter>reliance-edge\util</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\util\endian.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\util\endian.c">
       <Filter>reliance-edge\util</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\util\memory.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\util\memory.c">
       <Filter>reliance-edge\util</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\util\namelen.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\util\namelen.c">
       <Filter>reliance-edge\util</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\util\sign.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\util\sign.c">
       <Filter>reliance-edge\util</Filter>
     </ClCompile>
-    <ClCompile Include="$(GITHUB_ROOT)\\reliance-edge\util\string.c">
+    <ClCompile Include="..\..\..\..\..\lib\Modules\reliance-edge\util\string.c">
       <Filter>reliance-edge\util</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\lib\Drivers\FlashMemory\at45db\at45db081.cpp">
+      <Filter>Drivers\FlashMemory\at45db</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\lib\Drivers\FlashMemory\at45db\at45db081.hpp">
+      <Filter>Drivers\FlashMemory\at45db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Drivers\FlashMemory\at45db\at45db081_definitions.hpp">
+      <Filter>Drivers\FlashMemory\at45db</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source files</Filter>
     </ClCompile>
-    <ClCompile Include="$(THOR_ROOT)\Thor\Thor\source\thor_core.cpp">
-      <Filter>Thor\source</Filter>
+    <ClCompile Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\red_driver.cpp">
+      <Filter>Chimera\modules\memory</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\src\config\FreeRTOSConfig.h">
+      <Filter>src\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\config\redconf.h">
+      <Filter>src\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\config\redtypes.h">
+      <Filter>src\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\red_stub.hpp">
+      <Filter>Chimera\modules\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\red_driver.hpp">
+      <Filter>Chimera\modules\memory</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
