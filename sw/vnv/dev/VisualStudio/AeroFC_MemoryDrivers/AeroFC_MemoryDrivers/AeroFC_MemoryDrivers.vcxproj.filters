@@ -157,6 +157,12 @@
     <Filter Include="src\config">
       <UniqueIdentifier>{f29a6402-0554-4218-899c-f210fbb09ccb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\a">
+      <UniqueIdentifier>{9f52ee6a-7d8a-449d-8300-b46ae3858460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\d">
+      <UniqueIdentifier>{bc5a1cd8-63c0-4a71-a7b6-98fea7032461}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="stm32.props">
@@ -1280,6 +1286,15 @@
     <ClCompile Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\red_driver.cpp">
       <Filter>Chimera\modules\memory</Filter>
     </ClCompile>
+    <ClCompile Include="aerofc_flash.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\a\afc_watchdog.cpp">
+      <Filter>src\a</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\d\afc_hwm_heartbeat.cpp">
+      <Filter>src\d</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\src\config\FreeRTOSConfig.h">
@@ -1296,6 +1311,18 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\red_driver.hpp">
       <Filter>Chimera\modules\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\blockDevice.hpp">
+      <Filter>Chimera\modules\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="aerofc_flash.hpp">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\a\afc_watchdog.hpp">
+      <Filter>src\a</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\d\afc_hwm_heartbeat.hpp">
+      <Filter>src\d</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
