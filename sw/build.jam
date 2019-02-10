@@ -8,7 +8,7 @@ local aero_fc_inc_dir = src ;
 local dalA_src_dir = src/a ;
 local dalD_src_dir = src/d ; 
 
-local linker_script = D:/git/GitHub/AeroFC/sw/lib/Processor/Thor/Thor/lib/stm32hal_f7/Device/ld ;
+
 
 
 lib DAL_A
@@ -46,12 +46,14 @@ exe AERO_FC
         /CHIMERA//CORE
         /CHIMERA//BACKEND
         /FREERTOS//CORE
-        /THOR//CORE
+        /THOR//_CORE
 
     :   <include>$(aero_fc_inc_dir)
         <use>/CHIMERA//CORE
+        <use>/THOR//_CORE_PUB
+        <use>/PRJ//FreeRTOS_CFG
 
-        <linkflags>"-T $(linker_script)/STM32F767ZI_flash.lds"
+        
     
     :   <link>static
     ;

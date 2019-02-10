@@ -15,7 +15,10 @@ rule explicit_alias ( name : sources * : requirements * : default-build * : usag
 path-constant TOP : . ;
 path-constant FreeRTOS_ROOT : sw/lib/Processor/Thor/Thor/lib/FreeRTOS ;
 
-using gcc : 8.2.1 : "D:/ProgramFiles/gcc/bin/arm-none-eabi-g++.exe" ;
+using gcc : 8.2.1 : "D:/ProgramFiles/gcc/bin/arm-none-eabi-g++.exe" 
+    :   <archiver>D:/ProgramFiles/gcc/bin/arm-none-eabi-ar.exe
+        <ranlib>D:/ProgramFiles/gcc/bin/arm-none-eabi-ranlib.exe
+    ;
 
 
 use-project PRJ : . ;
@@ -34,10 +37,12 @@ path-constant boost_inc_dir : $(boost_install_dir)/boost_1_68_0 ;
 # ------------------------------------------
 explicit_alias BOOST : : : : <include>$(boost_inc_dir) ;
 explicit_alias CHIMERA_PORT : : : : <use>/THOR//CHIMERA_PORT ;
+explicit_alias FreeRTOS_CFG : : : : <include>sw/src/lib_config ;
 
 project AeroFC
     : requirements
         #<toolset>gcc
+        <link>static
         <cxxflags>--std=gnu++14
         <ThorFamily>STM32F7
         <ThorMCU>STM32F767
@@ -45,10 +50,4 @@ project AeroFC
         <Chimera>enabled
         <ChimeraBackend>Thor
     ;
-
-
-
-
-
-explicit_alias FreeRTOS_CFG : : : : <include>$(FreeRTOS_ROOT)/config/stm32 ;
 
