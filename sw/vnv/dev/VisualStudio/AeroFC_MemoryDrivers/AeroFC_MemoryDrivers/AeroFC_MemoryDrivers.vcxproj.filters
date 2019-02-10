@@ -154,14 +154,20 @@
     <Filter Include="src">
       <UniqueIdentifier>{285af7cb-c400-4701-b7ec-10c79a5139b0}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\config">
-      <UniqueIdentifier>{f29a6402-0554-4218-899c-f210fbb09ccb}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\a">
       <UniqueIdentifier>{9f52ee6a-7d8a-449d-8300-b46ae3858460}</UniqueIdentifier>
     </Filter>
     <Filter Include="src\d">
       <UniqueIdentifier>{bc5a1cd8-63c0-4a71-a7b6-98fea7032461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib_config">
+      <UniqueIdentifier>{f29a6402-0554-4218-899c-f210fbb09ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib_config\FreeRTOS">
+      <UniqueIdentifier>{6ac6a234-4a4b-4308-998e-0a413125c3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lib_config\RelianceEdge">
+      <UniqueIdentifier>{230a38b1-2852-4ba4-a36f-2ca756058d76}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -1295,17 +1301,11 @@
     <ClCompile Include="..\..\..\..\..\src\d\afc_hwm_heartbeat.cpp">
       <Filter>src\d</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\src\lib_config\RelianceEdge\redconf.c">
+      <Filter>src\lib_config\RelianceEdge</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\src\config\FreeRTOSConfig.h">
-      <Filter>src\config</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\src\config\redconf.h">
-      <Filter>src\config</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\..\src\config\redtypes.h">
-      <Filter>src\config</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\red_stub.hpp">
       <Filter>Chimera\modules\memory</Filter>
     </ClInclude>
@@ -1323,6 +1323,15 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\src\d\afc_hwm_heartbeat.hpp">
       <Filter>src\d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\lib_config\RelianceEdge\redconf.h">
+      <Filter>src\lib_config\RelianceEdge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\lib_config\RelianceEdge\redtypes.h">
+      <Filter>src\lib_config\RelianceEdge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\src\lib_config\FreeRTOS\FreeRTOSConfig.h">
+      <Filter>src\lib_config\FreeRTOS</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -43,14 +43,14 @@
     <ClCompile>
       <CPPLanguageStandard>CPP14</CPPLanguageStandard>
       <PreprocessorDefinitions>USE_FULL_LL_DRIVER;USE_FREERTOS;USING_FREERTOS;USING_CHIMERA;BOOST_NO_EXCEPTIONS;STM32F767xx;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(BOOST_ROOT)\boost_1_68_0;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\include;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\core\include;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\os\freertos\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Drivers\FlashMemory\at45db;$(GITHUB_ROOT)\AeroFC\sw\lib\Chimera;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\Thor\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\cmsis\CMSIS\Core\Include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\FreeRTOS\include;$(GITHUB_ROOT)\AeroFC\sw;$(GITHUB_ROOT)\AeroFC\sw\src\lib_config;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\conf;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT)\boost_1_68_0;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\include;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\core\include;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\os\freertos\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Drivers\FlashMemory\at45db;$(GITHUB_ROOT)\AeroFC\sw\lib\Chimera;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\Thor\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\cmsis\CMSIS\Core\Include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\FreeRTOS\include;$(GITHUB_ROOT)\AeroFC\sw;$(GITHUB_ROOT)\AeroFC\sw\src\lib_config\RelianceEdge;$(GITHUB_ROOT)\AeroFC\sw\src\lib_config\FreeRTOS;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\conf;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ClCompile>
       <CPPLanguageStandard>CPP14</CPPLanguageStandard>
       <PreprocessorDefinitions>USE_FULL_LL_DRIVER;USE_FREERTOS;USING_FREERTOS;USING_CHIMERA;BOOST_NO_EXCEPTIONS;STM32F767xx;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(BOOST_ROOT)\boost_1_68_0;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\include;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\core\include;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\os\freertos\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Drivers\FlashMemory\at45db;$(GITHUB_ROOT)\AeroFC\sw\lib\Chimera;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\Thor\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\cmsis\CMSIS\Core\Include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\FreeRTOS\include;$(GITHUB_ROOT)\AeroFC\sw;$(GITHUB_ROOT)\AeroFC\sw\src\lib_config;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\conf;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT)\boost_1_68_0;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\include;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\core\include;$(GITHUB_ROOT)\AeroFC\sw\lib\modules\reliance-edge\os\freertos\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Drivers\FlashMemory\at45db;$(GITHUB_ROOT)\AeroFC\sw\lib\Chimera;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\Thor\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\cmsis\CMSIS\Core\Include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\FreeRTOS\include;$(GITHUB_ROOT)\AeroFC\sw;$(GITHUB_ROOT)\AeroFC\sw\src\lib_config\RelianceEdge;$(GITHUB_ROOT)\AeroFC\sw\src\lib_config\FreeRTOS;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\FreeRTOS\portable\GCC\ARM_CM7\r0p1;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\conf;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\Device\include;$(GITHUB_ROOT)\AeroFC\sw\lib\Processor\Thor\Thor\lib\stm32hal_f7\STM32F7xx_HAL_Driver\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -62,15 +62,16 @@
     <ClCompile Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\red_driver.cpp" />
     <ClCompile Include="..\..\..\..\..\src\a\afc_watchdog.cpp" />
     <ClCompile Include="..\..\..\..\..\src\d\afc_hwm_heartbeat.cpp" />
+    <ClCompile Include="..\..\..\..\..\src\lib_config\RelianceEdge\redconf.c" />
     <ClCompile Include="aerofc_flash.cpp" />
     <ClCompile Include="main.cpp" />
     <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\blockDevice.hpp" />
     <ClInclude Include="..\..\..\..\..\lib\Chimera\Chimera\modules\memory\red_driver.hpp" />
     <ClInclude Include="..\..\..\..\..\src\a\afc_watchdog.hpp" />
-    <ClInclude Include="..\..\..\..\..\src\config\FreeRTOSConfig.h" />
-    <ClInclude Include="..\..\..\..\..\src\config\redconf.h" />
-    <ClInclude Include="..\..\..\..\..\src\config\redtypes.h" />
     <ClInclude Include="..\..\..\..\..\src\d\afc_hwm_heartbeat.hpp" />
+    <ClInclude Include="..\..\..\..\..\src\lib_config\FreeRTOS\FreeRTOSConfig.h" />
+    <ClInclude Include="..\..\..\..\..\src\lib_config\RelianceEdge\redconf.h" />
+    <ClInclude Include="..\..\..\..\..\src\lib_config\RelianceEdge\redtypes.h" />
     <ClInclude Include="aerofc_flash.hpp" />
     <None Include="stm32.props" />
     <None Include="AeroFC_MemoryDrivers-Debug.vgdbsettings" />
