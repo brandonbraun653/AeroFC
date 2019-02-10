@@ -13,7 +13,7 @@
 #include <Chimera/watchdog.hpp>
 
 /* Module Includes */
-#include <src/a/afc_watchdog.hpp>
+#include <a/afc_watchdog.hpp>
 
 using namespace Chimera;
 using namespace Chimera::Threading;

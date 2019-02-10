@@ -1,0 +1,54 @@
+import os ;
+import feature ;
+
+feature.feature FreeRTOS : disabled enabled : optional propagated ;
+feature.feature Chimera : disabled enabled : optional propagated ;
+feature.feature ChimeraBackend : none Thor Sim : optional propagated ;
+
+
+rule explicit_alias ( name : sources * : requirements * : default-build * : usage-requirements * )
+    {
+    alias $(name) : $(sources) : $(requirements) : $(default-build) : $(usage-requirements) ;
+    explicit $(name) ;
+    }
+
+path-constant TOP : . ;
+path-constant FreeRTOS_ROOT : sw/lib/Processor/Thor/Thor/lib/FreeRTOS ;
+
+using gcc : 8.2.1 : "D:/ProgramFiles/gcc/bin/arm-none-eabi-g++.exe" ;
+
+
+use-project PRJ : . ;
+use-project CHIMERA : sw/lib/Chimera ;
+use-project THOR : sw/lib/Processor/Thor/Thor ;
+use-project FREERTOS : $(FreeRTOS_ROOT) ;
+use-project STM32F4 : sw/lib/Processor/Thor/Thor/lib/stm32hal_f4 ;
+use-project STM32F7 : sw/lib/Processor/Thor/Thor/lib/stm32hal_f7 ;
+
+
+local boost_install_dir = [ os.environ BOOST_ROOT ] ;
+path-constant boost_inc_dir : $(boost_install_dir)/boost_1_68_0 ;
+
+# ------------------------------------------
+# /PRJ//XXXX Aliases
+# ------------------------------------------
+explicit_alias BOOST : : : : <include>$(boost_inc_dir) ;
+explicit_alias CHIMERA_PORT : : : : <use>/THOR//CHIMERA_PORT ;
+
+project AeroFC
+    : requirements
+        #<toolset>gcc
+        <cxxflags>--std=gnu++14
+        <ThorFamily>STM32F7
+        <ThorMCU>STM32F767
+        <FreeRTOS>enabled
+        <Chimera>enabled
+        <ChimeraBackend>Thor
+    ;
+
+
+
+
+
+explicit_alias FreeRTOS_CFG : : : : <include>$(FreeRTOS_ROOT)/config/stm32 ;
+

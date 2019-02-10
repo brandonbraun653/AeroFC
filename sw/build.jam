@@ -1,0 +1,61 @@
+
+
+
+# ------------------------------------------
+# Project Directories 
+# ------------------------------------------
+local aero_fc_inc_dir = src ;
+local dalA_src_dir = src/a ;
+local dalD_src_dir = src/d ; 
+
+local linker_script = D:/git/GitHub/AeroFC/sw/lib/Processor/Thor/Thor/lib/stm32hal_f7/Device/ld ;
+
+
+lib DAL_A
+    :   [ glob $(dalA_src_dir)/*.cpp ]
+        
+        /CHIMERA//_CORE
+
+    :   <include>$(aero_fc_inc_dir)
+        
+        <use>/CHIMERA//CORE
+        <use>/CHIMERA//BACKEND
+
+    :   <link>static
+    ;
+explicit DAL_A ;
+
+lib DAL_D 
+    :   [ glob $(dalD_src_dir)/*.cpp ]
+
+    :   <include>$(aero_fc_inc_dir)
+
+        <use>/CHIMERA//CORE
+        <use>/CHIMERA//BACKEND
+
+    :   <link>static
+    ;
+explicit DAL_D ;
+
+
+exe AERO_FC
+    :   src/main.cpp
+        DAL_A
+        DAL_D
+
+        /CHIMERA//CORE
+        /CHIMERA//BACKEND
+        /FREERTOS//CORE
+        /THOR//CORE
+
+    :   <include>$(aero_fc_inc_dir)
+        <use>/CHIMERA//CORE
+
+        <linkflags>"-T $(linker_script)/STM32F767ZI_flash.lds"
+    
+    :   <link>static
+    ;
+explicit AERO_FC ;
+
+
+#install dist : AERO_FC : <location>../artifacts ;

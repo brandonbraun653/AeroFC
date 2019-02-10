@@ -13,7 +13,7 @@
 #include <Chimera/threading.hpp>
 
 /* Module Includes */
-#include <src/d/afc_hwm_heartbeat.hpp>
+#include <d/afc_hwm_heartbeat.hpp>
 
 using namespace Chimera;
 using namespace Chimera::GPIO;
