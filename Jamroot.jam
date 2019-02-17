@@ -33,7 +33,7 @@ use-project /STM32F7 : $(STM32F7_ROOT) ;
 
 local boost_install_dir = [ os.environ BOOST_ROOT ] ;
 path-constant boost_inc_dir : $(boost_install_dir)/boost_1_68_0 ;
-
+path-constant artifacts_dir : $(TOP)/artifacts ;
 # ------------------------------------------
 # /PRJ//XXXX Aliases
 # ------------------------------------------
@@ -41,10 +41,16 @@ explicit_alias BOOST : : : : <include>$(boost_inc_dir) ;
 explicit_alias CHIMERA_PORT : : : : <use>/THOR//CHIMERA_PORT ;
 explicit_alias FreeRTOS_CFG : : : : <include>sw/src/lib_config/FreeRTOS ;
 
+explicit_alias TARGET_OPTIONS : : : : <use>/THOR//CORE_PUB ;
+
 project AeroFC
     : requirements
+        <architecture>arm
+        <address-model>32
+        <target-os>linux
         <toolset>gcc
         <link>static
+        <linkflags>-Wl,-Map,$(artifacts_dir)/aerofc.map
         <cxxflags>--std=gnu++14
         <ThorFamily>STM32F7
         <ThorChip>STM32F767

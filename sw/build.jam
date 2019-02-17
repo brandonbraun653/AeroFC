@@ -45,6 +45,11 @@ explicit_alias D : DAL_D ;
 
 exe AERO_FC
     :   src/main.cpp
+        /CHIMERA//CORE
+        /THOR//CORE
+        /FREERTOS//CORE
+        /FREERTOS//DEVICE_TARGET
+
         DAL_A
         DAL_D
 
@@ -53,3 +58,33 @@ exe AERO_FC
         <use>/CHIMERA//PUB
     ;
 explicit AERO_FC ;
+
+explicit_alias elf : AERO_FC ;
+
+alias install : install-AeroFC ;
+
+install install-AeroFC : aerofc.hex aerofc.bin : <location>$(TOP)/artifacts ;
+
+# ------------------------------------------
+# Converts the .elf file output into .hex
+# ------------------------------------------
+make aerofc.hex : elf : @elf2hex ;
+actions elf2hex
+{
+    "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O ihex $(>) $(<)
+}
+
+# ------------------------------------------
+# Converts the .elf file output into .bin
+# ------------------------------------------
+make aerofc.bin : elf : @elf2bin ;
+actions elf2bin
+{
+    "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O binary $(>) $(<)
+}
+
+#make aerofc.map : elf : @elf2map ;
+#actions elf2map
+#{
+#    "D:/ProgramFiles/gcc/bin/arm-none-eabi-g++.exe" 
+#}
