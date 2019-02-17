@@ -8,34 +8,39 @@ local aero_fc_inc_dir = src ;
 local dalA_src_dir = src/a ;
 local dalD_src_dir = src/d ; 
 
-
-
-
+# ------------------------------------------
+# Design Assurance Level A
+# ------------------------------------------
 lib DAL_A
     :   [ glob $(dalA_src_dir)/*.cpp ]
-        
-        /CHIMERA//_CORE
+        /CHIMERA//CHIMERA_CORE
+        /THOR//CORE
+        /THOR//CORE_PUB
 
-    :   <include>$(aero_fc_inc_dir)
-        
-        <use>/CHIMERA//CORE
-        <use>/CHIMERA//BACKEND
-
-    :   <link>static
+    :   <ChimeraBackend>Thor
+        <link>static
+        <include>$(aero_fc_inc_dir)
     ;
 explicit DAL_A ;
 
+explicit_alias A : DAL_A ;
+
+# ------------------------------------------
+# Design Assurance Level D
+# ------------------------------------------
 lib DAL_D 
     :   [ glob $(dalD_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+        /THOR//CORE
+        /THOR//CORE_PUB
 
-    :   <include>$(aero_fc_inc_dir)
-
-        <use>/CHIMERA//CORE
-        <use>/CHIMERA//BACKEND
-
-    :   <link>static
+    :   <ChimeraBackend>Thor
+        <link>static   
+        <include>$(aero_fc_inc_dir)
     ;
 explicit DAL_D ;
+
+explicit_alias D : DAL_D ;
 
 
 exe AERO_FC
@@ -43,21 +48,8 @@ exe AERO_FC
         DAL_A
         DAL_D
 
-        /CHIMERA//CORE
-        /CHIMERA//BACKEND
-        /FREERTOS//CORE
-        /THOR//_CORE
-
-    :   <include>$(aero_fc_inc_dir)
-        <use>/CHIMERA//CORE
-        <use>/THOR//_CORE_PUB
-        <use>/PRJ//FreeRTOS_CFG
-
-        
-    
     :   <link>static
+        <include>$(aero_fc_inc_dir)
+        <use>/CHIMERA//PUB
     ;
 explicit AERO_FC ;
-
-
-#install dist : AERO_FC : <location>../artifacts ;
