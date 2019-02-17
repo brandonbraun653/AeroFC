@@ -28,7 +28,7 @@ using namespace Chimera::Threading;
 
 using namespace Chimera::SPI;
 
-
+/*
 void simpleREDFS_WriteRead(void *argument)
 {
   Setup setup;
@@ -46,19 +46,19 @@ void simpleREDFS_WriteRead(void *argument)
 
 
   auto spi = std::make_shared<SPIClass>(1);
-  spi->init( setup );
-  spi->setChipSelectControlMode( ChipSelectMode::MANUAL );
+  spi->init(setup);
+  spi->setChipSelectControlMode(ChipSelectMode::MANUAL);
 
 
-  auto flash = std::make_shared<Adesto::NORFlash::AT45>( Adesto::FlashChip::AT45DB081E, spi );
-  flash->initialize( 1000000 );
+  auto flash = std::make_shared<Adesto::NORFlash::AT45>(Adesto::FlashChip::AT45DB081E, spi);
+  flash->initialize(1000000);
 
   Chimera::Modules::Memory::BlockDevice_sPtr blockDev = flash;
   Red::RedFSPosix fs;
 
   signalThreadSetupComplete();
 
-  auto ret_code = fs.init( blockDev, "VOL0:" );
+  auto ret_code = fs.init(blockDev, "VOL0:");
 
   ret_code = fs.mount();
 
@@ -68,10 +68,11 @@ void simpleREDFS_WriteRead(void *argument)
 
   ret_code = fs.deInitFileSystem();
 
-  printf( "Return code %d\r\n", ( int )ret_code );
+  printf("Return code %d\r\n", (int)ret_code);
 
-  for ( ;; )
+  for (;;)
   {
-    delayMilliseconds( 100 );
-    }
+    delayMilliseconds(100);
+  }
 }
+*/
