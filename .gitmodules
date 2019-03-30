@@ -6,7 +6,16 @@
 	url = git@github.com:brandonbraun653/FlashMemory.git
 [submodule "sw/lib/Processor/Thor"]
 	path = sw/lib/Processor/Thor
-	url = git@github.com:brandonbraun653/Thor_STM32.git
+	url = git@github.com:brandonbraun653/Thor.git
 [submodule "sw/lib/Modules/reliance-edge"]
 	path = sw/lib/Modules/reliance-edge
 	url = git@github.com:brandonbraun653/reliance-edge.git
+[submodule "sw/lib/FreeRTOS"]
+	path = sw/lib/FreeRTOS
+	url = git@github.com:brandonbraun653/FreeRTOS.git
+[submodule "sw/lib/Processor/stm32hal_f4"]
+	path = sw/lib/Processor/stm32hal_f4
+	url = git@github.com:brandonbraun653/STM32HAL_F4.git
+[submodule "sw/lib/Processor/cmsis"]
+	path = sw/lib/Processor/cmsis
+	url = https://github.com/ARM-software/CMSIS_5.git
