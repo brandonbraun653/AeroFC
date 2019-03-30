@@ -13,9 +13,9 @@ rule explicit_alias ( name : sources * : requirements * : default-build * : usag
     }
 
 path-constant TOP : . ;
-path-constant STM32F4_ROOT : sw/lib/Processor/Thor/Thor/lib/stm32hal_f4 ;
-path-constant STM32F7_ROOT : sw/lib/Processor/Thor/Thor/lib/stm32hal_f7 ;
-path-constant FreeRTOS_ROOT : sw/lib/Processor/Thor/Thor/lib/FreeRTOS ;
+path-constant STM32F4_ROOT : sw/lib/Processor/stm32hal_f4 ;
+path-constant STM32F7_ROOT : sw/lib/Processor/stm32hal_f7 ;
+path-constant FreeRTOS_ROOT : sw/lib/FreeRTOS ;
 
 using gcc : 8.2.1 : "D:/ProgramFiles/gcc/bin/arm-none-eabi-g++.exe" 
     :   <archiver>D:/ProgramFiles/gcc/bin/arm-none-eabi-ar.exe
@@ -25,10 +25,10 @@ using gcc : 8.2.1 : "D:/ProgramFiles/gcc/bin/arm-none-eabi-g++.exe"
 
 use-project /PRJ : . ;
 use-project /CHIMERA : sw/lib/Chimera ;
-use-project /THOR : sw/lib/Processor/Thor/Thor ;
+use-project /THOR : sw/lib/Processor/Thor ;
 use-project /FREERTOS : $(FreeRTOS_ROOT) ;
 use-project /STM32F4 : $(STM32F4_ROOT) ;
-use-project /STM32F7 : $(STM32F7_ROOT) ;
+#use-project /STM32F7 : $(STM32F7_ROOT) ;
 
 
 local boost_install_dir = [ os.environ BOOST_ROOT ] ;
@@ -40,7 +40,6 @@ path-constant artifacts_dir : $(TOP)/artifacts ;
 explicit_alias BOOST : : : : <include>$(boost_inc_dir) ;
 explicit_alias CHIMERA_PORT : : : : <use>/THOR//CHIMERA_PORT ;
 explicit_alias FreeRTOS_CFG : : : : <include>sw/src/lib_config/FreeRTOS ;
-
 explicit_alias TARGET_OPTIONS : : : : <use>/THOR//CORE_PUB ;
 
 project AeroFC
@@ -52,12 +51,12 @@ project AeroFC
         <link>static
         <linkflags>-Wl,-Map,$(artifacts_dir)/aerofc.map
         <cxxflags>--std=gnu++14
-        <ThorFamily>STM32F7
-        <ThorChip>STM32F767
-        <ThorVariant>ZI
-        #<ThorFamily>STM32F4
-        #<ThorChip>STM32F446
-        #<ThorVariant>RE
+        #<ThorFamily>STM32F7
+        #<ThorChip>STM32F767
+        #<ThorVariant>ZI
+        <ThorFamily>STM32F4
+        <ThorChip>STM32F446
+        <ThorVariant>RE
         <FreeRTOS>enabled
         <FreeRTOSMem>heap4
         <Chimera>enabled
