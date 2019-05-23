@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28902.138
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AeroFC", "AeroFC\AeroFC.vcxproj", "{26272904-66B2-4CAF-8661-7191749A2465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26272904-66B2-4CAF-8661-7191749A2465}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{26272904-66B2-4CAF-8661-7191749A2465}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{26272904-66B2-4CAF-8661-7191749A2465}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{26272904-66B2-4CAF-8661-7191749A2465}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B12D52CF-9888-4A9D-9CF5-6905923F99F8}
+	EndGlobalSection
+EndGlobal
