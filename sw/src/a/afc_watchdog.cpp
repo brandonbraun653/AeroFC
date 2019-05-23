@@ -9,6 +9,7 @@
  ********************************************************************************/
 
 /* Chimera Includes */
+#include <Chimera/chimera.hpp>
 #include <Chimera/threading.hpp>
 #include <Chimera/watchdog.hpp>
 
@@ -33,7 +34,7 @@ void afc_hwm_independentWatchdogThread( void *argument )
   signalSetupComplete();
 
 
-  dog.initialize( hwm_wd_lo_res_timeout_mS );
+  dog.initialize( hwm_wd_lo_res_timeout_mS, 50);
   dog.start();
 
   for ( ;; )

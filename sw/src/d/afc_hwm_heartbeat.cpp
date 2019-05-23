@@ -9,6 +9,7 @@
  ********************************************************************************/
 
 /* Chimera Includes */
+#include <Chimera/chimera.hpp>
 #include <Chimera/gpio.hpp>
 #include <Chimera/threading.hpp>
 
