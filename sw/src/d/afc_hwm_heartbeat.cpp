@@ -28,20 +28,20 @@ using namespace Chimera::Threading;
  */
 void afc_hwm_heartbeatThread( void *argument )
 {
-  // TODO: This pin mapping is temporary for the SMT32F767ZI Nucleo dev board
-  GPIOClass redLed;
-  redLed.init( Port::PORTB, 14 );
-  redLed.setMode( Drive::OUTPUT_PUSH_PULL, false );
-  redLed.setState( State::LOW );
+  // TODO: This pin mapping is temporary for the SMT32F446RE Nucleo dev board
+  GPIOClass led;
+  led.init( Port::PORTA, 5 );
+  led.setMode( Drive::OUTPUT_PUSH_PULL, false );
+  led.setState( State::LOW );
 
   signalSetupComplete();
 
   for ( ;; )
   {
-    redLed.setState( State::HIGH );
+    led.setState( State::HIGH );
     delayMilliseconds( hwm_heartbeat_period_on_mS );
 
-    redLed.setState( State::LOW );
+    led.setState( State::LOW );
     delayMilliseconds( hwm_heartbeat_period_off_mS );
   }
 }
