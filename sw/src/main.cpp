@@ -10,10 +10,10 @@
 ********************************************************************************/
 
 /* Chimera Includes */
+#include <Chimera/chimera.hpp>
 #include <Chimera/threading.hpp>
 
 /* Project Includes */
-//#include "aerofc_flash.hpp"
 #include <a/afc_watchdog.hpp>
 #include <d/afc_hwm_heartbeat.hpp>
 
@@ -23,7 +23,6 @@ int main(void)
 {
     ChimeraInit();
 
-    //addThread(simpleREDFS_WriteRead, "wr_rd", 500, NULL, 2, NULL);
     addThread(afc_hwm_independentWatchdogThread, "wd", 300, NULL, 2, NULL);
     addThread(afc_hwm_heartbeatThread, "hb", 100, NULL, 2, NULL);
 

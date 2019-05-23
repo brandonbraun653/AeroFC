@@ -19,3 +19,9 @@
 [submodule "sw/lib/Processor/cmsis"]
 	path = sw/lib/Processor/cmsis
 	url = https://github.com/ARM-software/CMSIS_5.git
+[submodule "sw/lib/AeroKernel"]
+	path = sw/lib/AeroKernel
+	url = https://github.com/brandonbraun653/AeroKernel.git
+[submodule "sw/lib/sparsepp"]
+	path = sw/lib/sparsepp
+	url = https://github.com/brandonbraun653/sparsepp.git
