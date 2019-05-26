@@ -62,10 +62,13 @@
       <UniqueIdentifier>{32261f17-88ac-42f4-9cf8-da05a84ead47}</UniqueIdentifier>
     </Filter>
     <Filter Include="Chimera\mock\modules">
-      <UniqueIdentifier>{caac2800-cadc-4dd5-bd99-ea56e8a42bbe}</UniqueIdentifier>
+      <UniqueIdentifier>{934aedfe-bde4-4468-9e4f-5966536bcd7f}</UniqueIdentifier>
     </Filter>
     <Filter Include="Chimera\mock\modules\memory">
-      <UniqueIdentifier>{abc87daf-b034-419c-a671-bdbd34d31787}</UniqueIdentifier>
+      <UniqueIdentifier>{394b3c54-b67a-4c47-95f1-0c9f70b8acad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chimera\extensions">
+      <UniqueIdentifier>{2ca4f6ed-76a1-42e3-b614-d2cf4496bce9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -273,23 +276,23 @@
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\modules\memory\device.hpp">
       <Filter>Chimera\modules\memory</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\chimeraPort.hpp">
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\delay.hpp">
       <Filter>Chimera\mock</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\delay.hpp">
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\gpio.hpp">
       <Filter>Chimera\mock</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\gpio.hpp">
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\spi.hpp">
       <Filter>Chimera\mock</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\spi.hpp">
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\watchdog.hpp">
       <Filter>Chimera\mock</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\watchdog.hpp">
-      <Filter>Chimera\mock</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\modules\memory\flash.hpp">
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\modules\memory\flash.hpp">
       <Filter>Chimera\mock\modules\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\extensions\spi_ext.hpp">
+      <Filter>Chimera\extensions</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -368,14 +371,12 @@
     <ClCompile Include="..\..\..\..\vnv\mod\afc_mod_test_entry.cpp">
       <Filter>Tests</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\lib\Chimera\mock\Chimera\chimera_mock_delay.cpp">
+    <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\mock\chimera_mock_delay.cpp">
       <Filter>Chimera\mock</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\lib\Chimera\mock\Chimera\chimera_mock_watchdog.cpp">
+    <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\mock\chimera_mock_watchdog.cpp">
       <Filter>Chimera\mock</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gtest\gtest-all.cc" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\lib\native\src\gmock\gmock-all.cc" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

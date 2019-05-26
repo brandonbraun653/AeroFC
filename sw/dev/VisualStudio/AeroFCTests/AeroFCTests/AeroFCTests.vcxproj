@@ -45,6 +45,7 @@
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\crc.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\dma.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\exception.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\extensions\spi_ext.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\gpio.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\interface\buffer_intf.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\interface\crc_intf.hpp" />
@@ -60,6 +61,11 @@
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\interface\watchdog_intf.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\logging.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\memory.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\delay.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\gpio.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\modules\memory\flash.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\spi.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\mock\watchdog.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\modules\freertos\freertos_hooks.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\modules\memory\blockDevice.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\modules\memory\device.hpp" />
@@ -83,12 +89,6 @@
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\types\watchdog_types.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\utilities.hpp" />
     <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\watchdog.hpp" />
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\chimeraPort.hpp" />
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\delay.hpp" />
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\gpio.hpp" />
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\modules\memory\flash.hpp" />
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\spi.hpp" />
-    <ClInclude Include="..\..\..\..\lib\Chimera\mock\Chimera\watchdog.hpp" />
     <ClInclude Include="..\..\..\..\lib\FreeRTOS\include\croutine.h" />
     <ClInclude Include="..\..\..\..\lib\FreeRTOS\include\deprecated_definitions.h" />
     <ClInclude Include="..\..\..\..\lib\FreeRTOS\include\event_groups.h" />
@@ -122,11 +122,11 @@
     <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\chimera_exception.cpp" />
     <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\chimera_logging.cpp" />
     <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\chimera_threading.cpp" />
+    <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\mock\chimera_mock_delay.cpp" />
+    <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\mock\chimera_mock_watchdog.cpp" />
     <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\modules\freertos\freertos_hooks.cpp" />
     <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\modules\memory\chimera_memory_device.cpp" />
     <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\modules\sim\freertos_hooks_prj.cpp" />
-    <ClCompile Include="..\..\..\..\lib\Chimera\mock\Chimera\chimera_mock_delay.cpp" />
-    <ClCompile Include="..\..\..\..\lib\Chimera\mock\Chimera\chimera_mock_watchdog.cpp" />
     <ClCompile Include="..\..\..\..\lib\FreeRTOS\croutine.c" />
     <ClCompile Include="..\..\..\..\lib\FreeRTOS\event_groups.c" />
     <ClCompile Include="..\..\..\..\lib\FreeRTOS\list.c" />
@@ -155,7 +155,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/Chimera/mock;$(ProjectDir)../../../../lib/Chimera/Chimera/modules/sim;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/Chimera/Chimera/modules/sim;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -173,7 +173,7 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/Chimera/mock;$(ProjectDir)../../../../lib/Chimera/Chimera/modules/sim;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/Chimera/Chimera/modules/sim;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -190,7 +190,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/Chimera/mock;$(ProjectDir)../../../../lib/Chimera/Chimera/modules/sim;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/Chimera/Chimera/modules/sim;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
@@ -209,7 +209,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/Chimera/mock;$(ProjectDir)../../../../lib/Chimera/Chimera/modules/sim;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/Chimera/Chimera/modules/sim;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/MSVC-MingW;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>

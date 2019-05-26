@@ -22,3 +22,9 @@
 [submodule "sw/lib/sparsepp"]
 	path = sw/lib/sparsepp
 	url = https://github.com/brandonbraun653/sparsepp.git
+[submodule "sw/lib/Sensors/LSM9DS1"]
+	path = sw/lib/Sensors/LSM9DS1
+	url = https://github.com/brandonbraun653/LSM9DS1.git
+[submodule "sw/lib/Sensors/LSM9DS0"]
+	path = sw/lib/Sensors/LSM9DS0
+	url = https://github.com/brandonbraun653/LSM9DS0.git

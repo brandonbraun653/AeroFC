@@ -42,14 +42,14 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|VisualGDB'">
     <ClCompile>
       <CPPLanguageStandard>CPP1Z</CPPLanguageStandard>
-      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Processor/Thor;$(ProjectDir)../../../../lib/Processor/Thor/Thor/config/chimera;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/GCC/ARM_CM4F;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/sys;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/include;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/conf;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/cmsis/core/include;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/STM32F4xx_HAL_Driver/Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Processor/Thor;$(ProjectDir)../../../../lib/Processor/Thor/Thor/config/chimera;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/GCC/ARM_CM4F;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/sys;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/include;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/conf;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/cmsis/core/include;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/STM32F4xx_HAL_Driver/Inc;$(ProjectDir)../../../../lib/Sensors/LSM9DS0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>CHIMERA_LITTLE_ENDIAN;USING_FREERTOS;USE_FREERTOS;BOOST_NO_EXCEPTIONS;USE_FULL_LL_DRIVER;STM32F446xx;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|VisualGDB'">
     <ClCompile>
       <CPPLanguageStandard>CPP1Z</CPPLanguageStandard>
-      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Processor/Thor;$(ProjectDir)../../../../lib/Processor/Thor/Thor/config/chimera;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/GCC/ARM_CM4F;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/sys;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/include;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/conf;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/cmsis/core/include;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/STM32F4xx_HAL_Driver/Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BOOST_ROOT)/boost_1_70_0;$(ProjectDir)../../../../src;$(ProjectDir)../../../../src/lib_config/FreeRTOS;$(ProjectDir)../../../../lib/sparsepp;$(ProjectDir)../../../../lib/AeroKernel;$(ProjectDir)../../../../lib/Processor/Thor;$(ProjectDir)../../../../lib/Processor/Thor/Thor/config/chimera;$(ProjectDir)../../../../lib/Chimera;$(ProjectDir)../../../../lib/FreeRTOS/include;$(ProjectDir)../../../../lib/FreeRTOS/portable/GCC/ARM_CM4F;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/sys;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/include;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/conf;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/Device/cmsis/core/include;$(ProjectDir)../../../../lib/Processor/stm32hal_f4/STM32F4xx_HAL_Driver/Inc;$(ProjectDir)../../../../lib/Sensors/LSM9DS0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>CHIMERA_LITTLE_ENDIAN;USING_FREERTOS;USE_FREERTOS;BOOST_NO_EXCEPTIONS;USE_FULL_LL_DRIVER;STM32F446xx;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemDefinitionGroup>
@@ -97,12 +97,16 @@
     <ClCompile Include="..\..\..\..\lib\Processor\Thor\Thor\thor_uart.cpp" />
     <ClCompile Include="..\..\..\..\lib\Processor\Thor\Thor\thor_usart.cpp" />
     <ClCompile Include="..\..\..\..\lib\Processor\Thor\Thor\thor_watchdog.cpp" />
+    <ClCompile Include="..\..\..\..\lib\Sensors\LSM9DS0\lsm9ds0\lsm9ds0.cpp" />
+    <ClCompile Include="..\..\..\..\src\a\afc_imu.cpp" />
     <ClCompile Include="..\..\..\..\src\a\afc_watchdog.cpp" />
     <ClCompile Include="..\..\..\..\src\d\afc_hwm_heartbeat.cpp" />
     <ClCompile Include="..\..\..\..\src\main.cpp" />
     <ClInclude Include="..\..\..\..\lib\AeroKernel\AeroKernel\event.hpp" />
     <ClInclude Include="..\..\..\..\lib\AeroKernel\AeroKernel\log.hpp" />
     <ClInclude Include="..\..\..\..\lib\AeroKernel\AeroKernel\parameter.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\modules\sensors\imu\imu_intf.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Chimera\Chimera\modules\sensors\imu\imu_types.hpp" />
     <ClInclude Include="..\..\..\..\lib\FreeRTOS\include\croutine.h" />
     <ClInclude Include="..\..\..\..\lib\FreeRTOS\include\deprecated_definitions.h" />
     <ClInclude Include="..\..\..\..\lib\FreeRTOS\include\event_groups.h" />
@@ -428,6 +432,9 @@
     <ClInclude Include="..\..\..\..\lib\Processor\Thor\Thor\uart.hpp" />
     <ClInclude Include="..\..\..\..\lib\Processor\Thor\Thor\usart.hpp" />
     <ClInclude Include="..\..\..\..\lib\Processor\Thor\Thor\watchdog.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Sensors\LSM9DS0\lsm9ds0\lsm9ds0.hpp" />
+    <ClInclude Include="..\..\..\..\lib\Sensors\LSM9DS0\lsm9ds0\lsm9ds0_types.hpp" />
+    <ClInclude Include="..\..\..\..\src\a\afc_imu.hpp" />
     <ClInclude Include="..\..\..\..\src\a\afc_watchdog.hpp" />
     <ClInclude Include="..\..\..\..\src\d\afc_hwm_heartbeat.hpp" />
     <ClInclude Include="..\..\..\..\src\lib_config\FreeRTOS\FreeRTOSConfig.h" />
