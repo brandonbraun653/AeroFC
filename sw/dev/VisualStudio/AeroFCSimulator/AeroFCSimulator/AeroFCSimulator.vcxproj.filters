@@ -1,14 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="AeroFC">
       <UniqueIdentifier>{9e1255b1-f52e-42b1-bc7f-e408a592d293}</UniqueIdentifier>
     </Filter>
@@ -66,11 +58,11 @@
     <Filter Include="FreeRTOS\portable\MemMang">
       <UniqueIdentifier>{9526241a-0920-4f3d-8e20-b95e97f1e58a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AeroFC\sim">
+      <UniqueIdentifier>{369bff90-ebeb-4dba-816b-bc0a56e26fc5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AeroFCSimulator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\src\a\afc_watchdog.cpp">
       <Filter>AeroFC\src\a</Filter>
     </ClCompile>
@@ -143,6 +135,9 @@
     <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\modules\sim\freertos_hooks_prj.cpp">
       <Filter>Chimera\modules\sim</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\sim\afc_sim_entry.cpp">
+      <Filter>AeroFC\sim</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\src\a\afc_watchdog.hpp">
@@ -153,9 +148,6 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\src\lib_config\FreeRTOS\FreeRTOSConfig.h">
       <Filter>AeroFC\src\lib_config\FreeRTOS</Filter>
-    </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\lib\AeroKernel\AeroKernel\event.hpp">
       <Filter>AeroKernel</Filter>

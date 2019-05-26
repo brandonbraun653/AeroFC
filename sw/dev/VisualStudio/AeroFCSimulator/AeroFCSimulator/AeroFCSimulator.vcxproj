@@ -181,9 +181,9 @@
     <ClCompile Include="..\..\..\..\lib\FreeRTOS\stream_buffer.c" />
     <ClCompile Include="..\..\..\..\lib\FreeRTOS\tasks.c" />
     <ClCompile Include="..\..\..\..\lib\FreeRTOS\timers.c" />
+    <ClCompile Include="..\..\..\..\sim\afc_sim_entry.cpp" />
     <ClCompile Include="..\..\..\..\src\a\afc_watchdog.cpp" />
     <ClCompile Include="..\..\..\..\src\d\afc_hwm_heartbeat.cpp" />
-    <ClCompile Include="AeroFCSimulator.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\lib\AeroKernel\AeroKernel\event.hpp" />
@@ -254,7 +254,6 @@
     <ClInclude Include="..\..\..\..\src\a\afc_watchdog.hpp" />
     <ClInclude Include="..\..\..\..\src\d\afc_hwm_heartbeat.hpp" />
     <ClInclude Include="..\..\..\..\src\lib_config\FreeRTOS\FreeRTOSConfig.h" />
-    <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
