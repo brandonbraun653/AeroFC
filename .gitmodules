@@ -16,9 +16,6 @@
 [submodule "sw/lib/Processor/stm32hal_f4"]
 	path = sw/lib/Processor/stm32hal_f4
 	url = git@github.com:brandonbraun653/STM32HAL_F4.git
-[submodule "sw/lib/Processor/cmsis"]
-	path = sw/lib/Processor/cmsis
-	url = https://github.com/ARM-software/CMSIS_5.git
 [submodule "sw/lib/AeroKernel"]
 	path = sw/lib/AeroKernel
 	url = https://github.com/brandonbraun653/AeroKernel.git
