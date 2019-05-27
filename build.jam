@@ -1,3 +1,4 @@
+import os ;
 import sw/lib/CommonTools/boost-build/features/thor ;
 import sw/lib/CommonTools/boost-build/features/chimera ;
 import sw/lib/CommonTools/boost-build/features/freertos ;
@@ -34,7 +35,9 @@ explicit_alias GCC_Snowflake_Windows : : : :
     ;
 
 explicit_alias GCC_Snowflake_Posix : : : :
+    <include>/usr/include
     <linkflags>"-L$(boost_lib_dir)"
+    <linkflags>"-lpthread"
     <linkflags>"-lboost_thread"
     <linkflags>"-lboost_chrono"
     <linkflags>"-lboost_date_time"
@@ -72,8 +75,10 @@ exe aero_fc_simulator
         <use>/FREERTOS//PUB
         <use>/PRJ//FreeRTOS_CFG
 
-    :   <FreeRTOS>enabled-heap4
-        <Chimera>enabled-Sim
+    :   <FreeRTOS>enabled
+        <FreeRTOS-heap>heap4
+        <Chimera>enabled
+        <Chimera-backend>Sim
     ;
 
 # ------------------------------------------
@@ -102,8 +107,10 @@ exe aero_fc_simulator
         <use>/FREERTOS//PUB
         <use>/PRJ//FreeRTOS_CFG
 
-    :   <FreeRTOS>enabled-heap4
-        <Chimera>enabled-Sim
+    :   <FreeRTOS>enabled
+        <FreeRTOS-heap>heap4
+        <Chimera>enabled
+        <Chimera-backend>Sim
     ;
 explicit aero_fc_simulator ;
 
@@ -111,8 +118,17 @@ explicit aero_fc_simulator ;
 
 # explicit_alias elf : AERO_FC ;
 
+if [ os.name ] in NT
+{
+    explicit_alias simulator_variant : aero_fc_simulator : : <FreeRTOS>enabled <FreeRTOS-port>Windows ;
+}
+else
+{
+    explicit_alias simulator_variant : aero_fc_simulator : : <FreeRTOS>enabled <FreeRTOS-port>Posix ; 
+}
+
 explicit_alias simulator : install-simulator ;
-install install-simulator : aero_fc_simulator : <location>$(TOP)/artifacts ;
+install install-simulator : simulator_variant : <location>$(TOP)/artifacts ;
 
 # install install-AeroFC : aerofc.hex aerofc.bin : <location>$(TOP)/artifacts ;
 
