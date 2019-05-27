@@ -28,16 +28,20 @@ path-constant artifacts_dir : $(TOP)/artifacts ;
 # ------------------------------------------
 # /PRJ//XXXX Aliases
 # ------------------------------------------
-explicit_alias BOOST : : : : <include>$(boost_inc_dir) <linkflags>"-L$(boost_lib_dir)" ;
+explicit_alias BOOST : : : : 
+    <include>$(boost_inc_dir) 
+    <toolset>gcc:<linkflags>"-L$(boost_lib_dir)" 
+    <toolset>msvc:<linkflags>"/LIBPATH:$(boost_lib_dir)" 
+    ;
 explicit_alias CHIMERA_PORT : : : : <use>/THOR//CHIMERA_PORT ;
 explicit_alias CHIMERA_DEFS ;
 explicit_alias FreeRTOS_CFG : : : : <include>sw/src/lib_config/FreeRTOS ;
-explicit_alias TARGET_OPTIONS : : : : <use>/THOR//CORE_PUB ;
+explicit_alias TARGET_OPTIONS : : : : <toolset>gcc_arm_none_eabi:<use>/THOR//CORE_PUB ;
 
 project AeroFC
     : requirements
         <link>static
-        <linkflags>-Wl,-Map,$(artifacts_dir)/aerofc.map,--start-group
+        <address-model>32
         <toolset>gcc_arm_none_eabi:<cxxflags>"--std=gnu++17"
         <toolset>gcc:<cxxflags>"--std=gnu++17"
         <toolset>msvc:<cxxflags>"/std:c++17"

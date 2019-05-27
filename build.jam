@@ -1,0 +1,141 @@
+import sw/lib/CommonTools/boost-build/features/thor ;
+import sw/lib/CommonTools/boost-build/features/chimera ;
+import sw/lib/CommonTools/boost-build/features/freertos ;
+
+# ====================================================
+# Local Rules 
+# ====================================================
+local rule explicit_alias ( name : sources * : requirements * : default-build * : usage-requirements * )
+    {
+    alias $(name) : $(sources) : $(requirements) : $(default-build) : $(usage-requirements) ;
+    explicit $(name) ;
+    }
+
+# ====================================================
+# Local Resources 
+# ====================================================
+
+
+# ====================================================
+# Public Targets
+# ====================================================
+
+# Currently GCC on Windows forces you to specify the exact
+# library you want to link to. Given that I don't have a 
+# rule that automatically generates this at the moment, using
+# this alias will allow Windows GCC builds to link properly
+# against boost_1_70_0.
+explicit_alias GCC_Snowflake_Windows : : : :
+    <linkflags>"-L$(boost_lib_dir)"
+    <linkflags>"-lwinmm"
+    <linkflags>"-lboost_thread-mgw82-mt-x64-1_70"
+    <linkflags>"-lboost_chrono-mgw82-mt-x64-1_70"
+    <linkflags>"-lboost_date_time-mgw82-mt-x64-1_70"
+    ;
+
+explicit_alias GCC_Snowflake_Posix : : : :
+    <linkflags>"-L$(boost_lib_dir)"
+    <linkflags>"-lboost_thread"
+    <linkflags>"-lboost_chrono"
+    <linkflags>"-lboost_date_time"
+    ;
+
+# ====================================================
+# AeroFC Simulator Executables
+#   Builds the project in a simulator configuration. This 
+#   swaps out the Chimera backend to use drivers that are
+#   compatible with Windows and Linux.
+# ====================================================
+# ------------------------------------------
+# Windows Variant
+# ------------------------------------------
+exe aero_fc_simulator
+    :   sw/src/main.cpp
+        /CHIMERA//CORE
+        /FREERTOS//CORE
+        /FREERTOS//DEVICE_TARGET
+
+        /AERO_FC//A
+        /AERO_FC//D
+
+    :   <Chimera>enabled
+        <FreeRTOS>enabled-Windows
+        <link>static
+        <include>$(aero_fc_inc_dir)
+        <define>USING_FREERTOS
+        <define>NOMINMAX
+        <define>SIM
+
+        <toolset>gcc:<use>GCC_Snowflake_Windows
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/PRJ//FreeRTOS_CFG
+
+    :   <FreeRTOS>enabled-heap4
+        <Chimera>enabled-Sim
+    ;
+
+# ------------------------------------------
+# Posix (Linux) Variant
+# ------------------------------------------
+exe aero_fc_simulator
+    :   sw/src/main.cpp
+        /CHIMERA//CORE
+        /FREERTOS//CORE
+        /FREERTOS//DEVICE_TARGET
+
+        /AERO_FC//A
+        /AERO_FC//D
+
+    :   <Chimera>enabled
+        <FreeRTOS>enabled-Posix
+        <link>static
+        <include>$(aero_fc_inc_dir)
+        <define>USING_FREERTOS
+        <define>NOMINMAX
+        <define>SIM
+
+        <toolset>gcc:<use>GCC_Snowflake_Posix
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/PRJ//FreeRTOS_CFG
+
+    :   <FreeRTOS>enabled-heap4
+        <Chimera>enabled-Sim
+    ;
+explicit aero_fc_simulator ;
+
+# gcc Only: <linkflags>-Wl,-Map,$(artifacts_dir)/aerofc.map
+
+# explicit_alias elf : AERO_FC ;
+
+explicit_alias simulator : install-simulator ;
+install install-simulator : aero_fc_simulator : <location>$(TOP)/artifacts ;
+
+# install install-AeroFC : aerofc.hex aerofc.bin : <location>$(TOP)/artifacts ;
+
+# ------------------------------------------
+# Converts the .elf file output into .hex
+# ------------------------------------------
+# make aerofc.hex : elf : @elf2hex ;
+# actions elf2hex
+# {
+#     "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O ihex $(>) $(<)
+# }
+
+# ------------------------------------------
+# Converts the .elf file output into .bin
+# ------------------------------------------
+# make aerofc.bin : elf : @elf2bin ;
+# actions elf2bin
+# {
+#     "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O binary $(>) $(<)
+# }
+
+#make aerofc.map : elf : @elf2map ;
+#actions elf2map
+#{
+#    "D:/ProgramFiles/gcc/bin/arm-none-eabi-g++.exe" 
+#}

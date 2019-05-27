@@ -29,6 +29,27 @@ project AeroFC_SW : usage-requirements <include>$(aero_fc_inc_dir) ;
 # ====================================================
 # Public Library Components
 # ====================================================
+explicit_alias PUB : : : : <include>$(aero_fc_inc_dir) ;
+
+# ====================================================
+# AeroFC Core Drivers
+# ====================================================
+# lib CORE
+#     :   src/main.cpp
+
+#     :   <Chimera>enabled
+#         <FreeRTOS>enabled
+#         <link>static
+#         <define>USING_FREERTOS
+#         <define>NOMINMAX
+
+#         <use>PUB
+#         <use>/CHIMERA//PUB
+#         <use>/FREERTOS//PUB
+#         <use>/PRJ//FreeRTOS_CFG
+#     ;
+# explicit CORE ;
+# explicit_alias AERO_FC_CORE : CORE ;
 
 # ====================================================
 # Design Assurance Level A Components
@@ -122,57 +143,3 @@ lib DAL_D
     ;
 
 explicit_alias D : DAL_D ;
-
-
-# exe AERO_FC
-#     :   src/main.cpp
-#         /CHIMERA//CORE
-#         /THOR//CORE
-#         /FREERTOS//CORE
-#         /FREERTOS//DEVICE_TARGET
-
-#         DAL_A
-#         DAL_D
-
-#     :   <link>static
-#         <include>$(aero_fc_inc_dir)
-#         <use>/CHIMERA//PUB
-    
-#     :   <ThorFamily>STM32F4
-#         <ThorChip>STM32F446
-#         <ThorVariant>RE
-#         <FreeRTOSMem>heap4
-#         <FreeRTOSPort>CortexM
-#         <ChimeraBackend>Thor
-#     ;
-# explicit AERO_FC ;
-
-# explicit_alias elf : AERO_FC ;
-
-# alias install : install-AeroFC ;
-
-# install install-AeroFC : aerofc.hex aerofc.bin : <location>$(TOP)/artifacts ;
-
-# ------------------------------------------
-# Converts the .elf file output into .hex
-# ------------------------------------------
-# make aerofc.hex : elf : @elf2hex ;
-# actions elf2hex
-# {
-#     "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O ihex $(>) $(<)
-# }
-
-# ------------------------------------------
-# Converts the .elf file output into .bin
-# ------------------------------------------
-# make aerofc.bin : elf : @elf2bin ;
-# actions elf2bin
-# {
-#     "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O binary $(>) $(<)
-# }
-
-#make aerofc.map : elf : @elf2map ;
-#actions elf2map
-#{
-#    "D:/ProgramFiles/gcc/bin/arm-none-eabi-g++.exe" 
-#}
