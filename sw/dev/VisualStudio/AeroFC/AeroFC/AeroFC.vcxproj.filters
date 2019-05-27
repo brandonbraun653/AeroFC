@@ -921,9 +921,6 @@
     <ClCompile Include="..\..\..\..\lib\FreeRTOS\timers.c">
       <Filter>FreeRTOS</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\modules\freertos\freertos_hooks.cpp">
-      <Filter>Chimera\modules\freertos</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\lib\AeroKernel\AeroKernel\event.cpp">
       <Filter>AeroKernel</Filter>
     </ClCompile>
@@ -938,6 +935,9 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\src\a\afc_imu.cpp">
       <Filter>AeroFC\src\a</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\lib\Chimera\Chimera\modules\freertos\freertos_hooks.cpp">
+      <Filter>Chimera\modules\freertos</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

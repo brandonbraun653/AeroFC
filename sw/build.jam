@@ -1,6 +1,19 @@
+import lib/CommonTools/boost-build/features/thor ;
+import lib/CommonTools/boost-build/features/chimera ;
+import lib/CommonTools/boost-build/features/freertos ;
 
+# ====================================================
+# Local Rules 
+# ====================================================
+local rule explicit_alias ( name : sources * : requirements * : default-build * : usage-requirements * )
+    {
+    alias $(name) : $(sources) : $(requirements) : $(default-build) : $(usage-requirements) ;
+    explicit $(name) ;
+    }
 
-
+# ====================================================
+# Local Resources 
+# ====================================================
 # ------------------------------------------
 # Project Directories 
 # ------------------------------------------
@@ -8,8 +21,20 @@ local aero_fc_inc_dir = src ;
 local dalA_src_dir = src/a ;
 local dalD_src_dir = src/d ; 
 
+# ====================================================
+# Project Definition
+# ====================================================
+project AeroFC_SW : usage-requirements <include>$(aero_fc_inc_dir) ;
+
+# ====================================================
+# Public Library Components
+# ====================================================
+
+# ====================================================
+# Design Assurance Level A Components
+# ====================================================
 # ------------------------------------------
-# Design Assurance Level A
+# Embedded target using Thor & FreeRTOS
 # ------------------------------------------
 lib DAL_A
     :   [ glob $(dalA_src_dir)/*.cpp ]
@@ -17,16 +42,47 @@ lib DAL_A
         /THOR//CORE
         /THOR//CORE_PUB
 
-    :   <ChimeraBackend>Thor
+    :   <Chimera>enabled-Thor
+        <FreeRTOS>enabled
+        <link>static
+        <toolset>gcc_arm_none_eabi
+        <include>$(aero_fc_inc_dir)
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/LSM9DS0//PUB 
+        <use>/PRJ//CHIMERA_PORT             # chimeraPort.hpp
+    ;
+
+# ------------------------------------------
+# Chimera simulator target using FreeRTOS
+# ------------------------------------------
+lib DAL_A
+    :   [ glob $(dalA_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+
+    :   <Chimera>enabled-Sim
+        <FreeRTOS>enabled
         <link>static
         <include>$(aero_fc_inc_dir)
+
+        <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <use>/CHIMERA//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/FREERTOS//PUB
+        <use>/LSM9DS0//PUB
     ;
+
 explicit DAL_A ;
 
 explicit_alias A : DAL_A ;
 
+# ====================================================
+# Design Assurance Level D Components
+# ====================================================
 # ------------------------------------------
-# Design Assurance Level D
+# Embedded target using Thor & FreeRTOS
 # ------------------------------------------
 lib DAL_D 
     :   [ glob $(dalD_src_dir)/*.cpp ]
@@ -34,54 +90,86 @@ lib DAL_D
         /THOR//CORE
         /THOR//CORE_PUB
 
-    :   <ChimeraBackend>Thor
+    :   <Chimera>enabled-Thor
+        <FreeRTOS>enabled
         <link>static   
         <include>$(aero_fc_inc_dir)
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/PRJ//CHIMERA_PORT             # chimeraPort.hpp
     ;
 explicit DAL_D ;
+
+# ------------------------------------------
+# Chimera simulator target using FreeRTOS
+# ------------------------------------------
+lib DAL_D
+    :   [ glob $(dalD_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+
+    :   <Chimera>enabled-Sim
+        <FreeRTOS>enabled
+        <link>static
+        <include>$(aero_fc_inc_dir)
+
+        <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <use>/CHIMERA//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/FREERTOS//PUB
+        <use>/LSM9DS0//PUB 
+    ;
 
 explicit_alias D : DAL_D ;
 
 
-exe AERO_FC
-    :   src/main.cpp
-        /CHIMERA//CORE
-        /THOR//CORE
-        /FREERTOS//CORE
-        /FREERTOS//DEVICE_TARGET
+# exe AERO_FC
+#     :   src/main.cpp
+#         /CHIMERA//CORE
+#         /THOR//CORE
+#         /FREERTOS//CORE
+#         /FREERTOS//DEVICE_TARGET
 
-        DAL_A
-        DAL_D
+#         DAL_A
+#         DAL_D
 
-    :   <link>static
-        <include>$(aero_fc_inc_dir)
-        <use>/CHIMERA//PUB
-    ;
-explicit AERO_FC ;
+#     :   <link>static
+#         <include>$(aero_fc_inc_dir)
+#         <use>/CHIMERA//PUB
+    
+#     :   <ThorFamily>STM32F4
+#         <ThorChip>STM32F446
+#         <ThorVariant>RE
+#         <FreeRTOSMem>heap4
+#         <FreeRTOSPort>CortexM
+#         <ChimeraBackend>Thor
+#     ;
+# explicit AERO_FC ;
 
-explicit_alias elf : AERO_FC ;
+# explicit_alias elf : AERO_FC ;
 
-alias install : install-AeroFC ;
+# alias install : install-AeroFC ;
 
-install install-AeroFC : aerofc.hex aerofc.bin : <location>$(TOP)/artifacts ;
+# install install-AeroFC : aerofc.hex aerofc.bin : <location>$(TOP)/artifacts ;
 
 # ------------------------------------------
 # Converts the .elf file output into .hex
 # ------------------------------------------
-make aerofc.hex : elf : @elf2hex ;
-actions elf2hex
-{
-    "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O ihex $(>) $(<)
-}
+# make aerofc.hex : elf : @elf2hex ;
+# actions elf2hex
+# {
+#     "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O ihex $(>) $(<)
+# }
 
 # ------------------------------------------
 # Converts the .elf file output into .bin
 # ------------------------------------------
-make aerofc.bin : elf : @elf2bin ;
-actions elf2bin
-{
-    "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O binary $(>) $(<)
-}
+# make aerofc.bin : elf : @elf2bin ;
+# actions elf2bin
+# {
+#     "D:/ProgramFiles/gcc/bin/arm-none-eabi-objcopy.exe" -O binary $(>) $(<)
+# }
 
 #make aerofc.map : elf : @elf2map ;
 #actions elf2map

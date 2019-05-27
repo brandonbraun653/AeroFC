@@ -28,3 +28,6 @@
 [submodule "sw/lib/Sensors/LSM9DS0"]
 	path = sw/lib/Sensors/LSM9DS0
 	url = https://github.com/brandonbraun653/LSM9DS0.git
+[submodule "sw/lib/CommonTools"]
+	path = sw/lib/CommonTools
+	url = https://github.com/brandonbraun653/CommonTools.git

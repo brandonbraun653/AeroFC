@@ -1,65 +1,48 @@
 import os ;
 import feature ;
+import sw/lib/CommonTools/boost-build/toolset/gcc_arm_none_eabi ;
 
-feature.feature FreeRTOS : disabled enabled : optional propagated ;
-feature.feature Chimera : disabled enabled : optional propagated ;
-feature.feature ChimeraBackend : none Thor Sim : optional propagated ;
-
-
-rule explicit_alias ( name : sources * : requirements * : default-build * : usage-requirements * )
+local rule explicit_alias ( name : sources * : requirements * : default-build * : usage-requirements * )
     {
     alias $(name) : $(sources) : $(requirements) : $(default-build) : $(usage-requirements) ;
     explicit $(name) ;
     }
 
 path-constant TOP : . ;
-path-constant STM32F4_ROOT : sw/lib/Processor/stm32hal_f4 ;
-path-constant STM32F7_ROOT : sw/lib/Processor/stm32hal_f7 ;
-path-constant FreeRTOS_ROOT : sw/lib/FreeRTOS ;
 
-using gcc : 8.2.1 : "D:/ProgramFiles/gcc/bin/arm-none-eabi-g++.exe" 
-    :   <archiver>D:/ProgramFiles/gcc/bin/arm-none-eabi-ar.exe
-        <ranlib>D:/ProgramFiles/gcc/bin/arm-none-eabi-ranlib.exe
-    ;
-
-
-use-project /PRJ : . ;
+use-project /FREERTOS : sw/lib/FreeRTOS ;
+use-project /STM32F4 : sw/lib/Processor/stm32hal_f4 ;
 use-project /CHIMERA : sw/lib/Chimera ;
 use-project /THOR : sw/lib/Processor/Thor ;
-use-project /FREERTOS : $(FreeRTOS_ROOT) ;
-use-project /STM32F4 : $(STM32F4_ROOT) ;
-#use-project /STM32F7 : $(STM32F7_ROOT) ;
-
+use-project /AERO_KERNEL : sw/lib/AeroKernel ;
+use-project /SPARSEPP : sw/lib/sparsepp ;
+use-project /AERO_FC : sw ;
+use-project /LSM9DS0 : sw/lib/Sensors/LSM9DS0 ;
+use-project /PRJ : . ;
 
 local boost_install_dir = [ os.environ BOOST_ROOT ] ;
-path-constant boost_inc_dir : $(boost_install_dir)/boost_1_68_0 ;
+path-constant boost_inc_dir : $(boost_install_dir)/boost_1_70_0 ;
+path-constant boost_lib_dir : $(boost_install_dir)/boost_1_70_0/stage/lib ;
 path-constant artifacts_dir : $(TOP)/artifacts ;
+
 # ------------------------------------------
 # /PRJ//XXXX Aliases
 # ------------------------------------------
-explicit_alias BOOST : : : : <include>$(boost_inc_dir) ;
+explicit_alias BOOST : : : : <include>$(boost_inc_dir) <linkflags>"-L$(boost_lib_dir)" ;
 explicit_alias CHIMERA_PORT : : : : <use>/THOR//CHIMERA_PORT ;
+explicit_alias CHIMERA_DEFS ;
 explicit_alias FreeRTOS_CFG : : : : <include>sw/src/lib_config/FreeRTOS ;
 explicit_alias TARGET_OPTIONS : : : : <use>/THOR//CORE_PUB ;
 
 project AeroFC
     : requirements
-        <architecture>arm
-        <address-model>32
-        <target-os>linux
-        <toolset>gcc
         <link>static
-        <linkflags>-Wl,-Map,$(artifacts_dir)/aerofc.map
-        <cxxflags>--std=gnu++14
-        #<ThorFamily>STM32F7
-        #<ThorChip>STM32F767
-        #<ThorVariant>ZI
-        <ThorFamily>STM32F4
-        <ThorChip>STM32F446
-        <ThorVariant>RE
-        <FreeRTOS>enabled
-        <FreeRTOSMem>heap4
-        <Chimera>enabled
-        <ChimeraBackend>Thor
+        <linkflags>-Wl,-Map,$(artifacts_dir)/aerofc.map,--start-group
+        <toolset>gcc_arm_none_eabi:<cxxflags>"--std=gnu++17"
+        <toolset>gcc:<cxxflags>"--std=gnu++17"
+        <toolset>msvc:<cxxflags>"/std:c++17"
+        <define>CHIMERA_LITTLE_ENDIAN
+
+    :   default-build debug
     ;
 
