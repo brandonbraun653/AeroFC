@@ -21,25 +21,6 @@ local rule explicit_alias ( name : sources * : requirements * : default-build * 
 # Public Targets
 # ====================================================
 
-# Currently GCC on Windows forces you to specify the exact
-# library you want to link to. Given that I don't have a 
-# rule that automatically generates this at the moment, using
-# this alias will allow Windows GCC builds to link properly
-# against boost_1_70_0.
-explicit_alias GCC_Snowflake_Windows : : : :
-    <linkflags>"-L$(boost_lib_dir)"
-
-    ;
-
-explicit_alias GCC_Snowflake_Posix : : : :
-    <include>/usr/include
-    <linkflags>"-L$(boost_lib_dir)"
-    <linkflags>"-lpthread"
-    <linkflags>"-lboost_thread"
-    <linkflags>"-lboost_chrono"
-    <linkflags>"-lboost_date_time"
-    ;
-
 # ====================================================
 # AeroFC Simulator Executables
 #   Builds the project in a simulator configuration. This 
