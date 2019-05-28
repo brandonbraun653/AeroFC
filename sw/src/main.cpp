@@ -9,11 +9,6 @@
  *   2019 | Brandon Braun | brandonbraun653@gmail.com
  ********************************************************************************/
 
-/* C++ Includes */
-#if defined( SIM )
-#include <iostream>
-#endif 
-
 /* Chimera Includes */
 #include <Chimera/chimera.hpp>
 #include <Chimera/threading.hpp>
@@ -28,16 +23,11 @@ int main( void )
 {
   ChimeraInit();
 
-  #if defined( SIM )
-  std::cout << "Hello World!" << std::endl;
-  return 0;
-  #else
-
   addThread( afc_hwm_independentWatchdogThread, "wd", 300, NULL, 2, NULL );
   addThread( afc_hwm_heartbeatThread, "hb", 100, NULL, 2, NULL );
 
+  /* Should never return from here */
   startScheduler();
 
   for ( ;; ) {}
-  #endif 
 }

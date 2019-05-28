@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/sw/lib/FreeRTOS/portable/GCC/Posix",
+                "${workspaceFolder}/sw",
+                "${workspaceFolder}/sw/lib/Chimera"
+
+            ],
+            "defines": ["USING_FREERTOS", "USE_FREERTOS", "USING_CHIMERA"],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        },
+        {
+            "name": "Embedded",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/sw/lib/FreeRTOS/portable/GCC/ARM_CM4F",
+                "${workspaceFolder}/sw",
+                "${workspaceFolder}/sw/lib/Chimera"
+            ],
+            "defines": ["USING_FREERTOS", "USE_FREERTOS", "USING_CHIMERA", "STM32F446xx", "BOOST_NO_EXCEPTIONS" ],
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

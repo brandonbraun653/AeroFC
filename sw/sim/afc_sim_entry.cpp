@@ -8,9 +8,20 @@
 *  2019 | Brandon Braun | brandonbraun653@gmail.com
 ********************************************************************************/
 
-#include <iostream>
+/* Chimera Includes */
+#include <Chimera/threading.hpp>
+
+/* Simulator Includes */
+#include <sim/sim_debug_test.hpp>
 
 int main()
 {
-  std::cout << "Hello World!\n";
+  using namespace Chimera::Threading;
+
+  addThread( Simulator::print_hello_world, "helloWorld", 200, NULL, 2, NULL );
+
+  /* Should never return from here */
+  startScheduler();
+
+  while(1){}
 }

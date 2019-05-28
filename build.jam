@@ -27,11 +27,14 @@ local rule explicit_alias ( name : sources * : requirements * : default-build * 
 #   swaps out the Chimera backend to use drivers that are
 #   compatible with Windows and Linux.
 # ====================================================
+local sim_src_dir = sw/sim ;
+local sim_inc_dir = sw ;
+
 # ------------------------------------------
 # Windows Variant
 # ------------------------------------------
 exe aero_fc_simulator
-    :   sw/src/main.cpp
+    :   [ glob $(sim_src_dir)/*.cpp ]
         /CHIMERA//CORE
         /FREERTOS//CORE
         /FREERTOS//DEVICE_TARGET
@@ -43,6 +46,7 @@ exe aero_fc_simulator
         <FreeRTOS>enabled-Windows
         <link>static
         <include>$(aero_fc_inc_dir)
+        <include>$(sim_inc_dir)
         <define>USING_FREERTOS
         <define>NOMINMAX
         <define>SIM
@@ -60,7 +64,7 @@ exe aero_fc_simulator
 # Posix (Linux) Variant
 # ------------------------------------------
 exe aero_fc_simulator
-    :   sw/src/main.cpp
+    :   [ glob $(sim_src_dir)/*.cpp ]
         /CHIMERA//CORE
         /FREERTOS//CORE
         /FREERTOS//DEVICE_TARGET
@@ -72,6 +76,7 @@ exe aero_fc_simulator
         <FreeRTOS>enabled-Posix-heap4
         <link>static
         <include>$(aero_fc_inc_dir)
+        <include>$(sim_inc_dir)
         <define>USING_FREERTOS
         <define>NOMINMAX
         <define>SIM
