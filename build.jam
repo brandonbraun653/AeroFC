@@ -28,10 +28,7 @@ local rule explicit_alias ( name : sources * : requirements * : default-build * 
 # against boost_1_70_0.
 explicit_alias GCC_Snowflake_Windows : : : :
     <linkflags>"-L$(boost_lib_dir)"
-    <linkflags>"-lwinmm"
-    <linkflags>"-lboost_thread-mgw82-mt-x64-1_70"
-    <linkflags>"-lboost_chrono-mgw82-mt-x64-1_70"
-    <linkflags>"-lboost_date_time-mgw82-mt-x64-1_70"
+
     ;
 
 explicit_alias GCC_Snowflake_Posix : : : :
@@ -69,16 +66,13 @@ exe aero_fc_simulator
         <define>NOMINMAX
         <define>SIM
 
-        <toolset>gcc:<use>GCC_Snowflake_Windows
+        # FIXME: This is quite ugly, but it works.
+        # Very specific to host PC compilation of boost libs...
+        <toolset>gcc:<linkflags>"-lwinmm -lboost_thread-mgw82-mt-x64-1_70 -lboost_chrono-mgw82-mt-x64-1_70 -lboost_date_time-mgw82-mt-x64-1_70"
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
         <use>/PRJ//FreeRTOS_CFG
-
-    :   <FreeRTOS>enabled
-        <FreeRTOS-heap>heap4
-        <Chimera>enabled
-        <Chimera-backend>Sim
     ;
 
 # ------------------------------------------
@@ -93,48 +87,63 @@ exe aero_fc_simulator
         /AERO_FC//A
         /AERO_FC//D
 
-    :   <Chimera>enabled
-        <FreeRTOS>enabled-Posix
+    :   <Chimera>enabled-Sim
+        <FreeRTOS>enabled-Posix-heap4
         <link>static
         <include>$(aero_fc_inc_dir)
         <define>USING_FREERTOS
         <define>NOMINMAX
         <define>SIM
 
-        <toolset>gcc:<use>GCC_Snowflake_Posix
+        <include>/usr/include
+        <linkflags>"-lpthread -lboost_thread -lboost_chrono -lboost_date_time"
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
         <use>/PRJ//FreeRTOS_CFG
-
-    :   <FreeRTOS>enabled
-        <FreeRTOS-heap>heap4
-        <Chimera>enabled
-        <Chimera-backend>Sim
+        <use>/PRJ//BOOST
     ;
 explicit aero_fc_simulator ;
 
-# gcc Only: <linkflags>-Wl,-Map,$(artifacts_dir)/aerofc.map
-
-# explicit_alias elf : AERO_FC ;
-
+# ------------------------------------------
+# Generate the appropriate target for building the sim
+# ------------------------------------------
 if [ os.name ] in NT
 {
-    explicit_alias simulator_variant : aero_fc_simulator : : <FreeRTOS>enabled <FreeRTOS-port>Windows ;
+    explicit_alias simulator_variant 
+        :   aero_fc_simulator 
+        : 
+        :   <FreeRTOS>enabled 
+            <FreeRTOS-port>Windows
+            <FreeRTOS-heap>heap4
+            <Chimera>enabled
+            <Chimera-backend>Sim
+        ;
 }
 else
 {
-    explicit_alias simulator_variant : aero_fc_simulator : : <FreeRTOS>enabled <FreeRTOS-port>Posix ; 
+    explicit_alias simulator_variant 
+        :   aero_fc_simulator 
+        : 
+        :   <FreeRTOS>enabled 
+            <FreeRTOS-port>Posix
+            <FreeRTOS-heap>heap4
+            <Chimera>enabled
+            <Chimera-backend>Sim
+        ; 
 }
 
-explicit_alias simulator : install-simulator ;
-install install-simulator : simulator_variant : <location>$(TOP)/artifacts ;
+explicit_alias simulator : install_simulator ;
+install install_simulator : simulator_variant : <location>$(TOP)/artifacts ;
 
 # install install-AeroFC : aerofc.hex aerofc.bin : <location>$(TOP)/artifacts ;
 
 # ------------------------------------------
 # Converts the .elf file output into .hex
 # ------------------------------------------
+
+# gcc Only: <linkflags>-Wl,-Map,$(artifacts_dir)/aerofc.map
+
 # make aerofc.hex : elf : @elf2hex ;
 # actions elf2hex
 # {
