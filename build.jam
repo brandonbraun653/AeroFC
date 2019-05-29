@@ -45,15 +45,12 @@ exe aero_fc_simulator
     :   <Chimera>enabled
         <FreeRTOS>enabled-Windows
         <link>static
+        <toolset>msvc                   # Currently only MSVC produces working executables
         <include>$(aero_fc_inc_dir)
         <include>$(sim_inc_dir)
         <define>USING_FREERTOS
         <define>NOMINMAX
         <define>SIM
-
-        # FIXME: This is quite ugly, but it works.
-        # Very specific to host PC compilation of boost libs...
-        <toolset>gcc:<linkflags>"-lwinmm -lboost_thread-mgw82-mt-x64-1_70 -lboost_chrono-mgw82-mt-x64-1_70 -lboost_date_time-mgw82-mt-x64-1_70"
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
