@@ -14,7 +14,7 @@
 #include <Chimera/watchdog.hpp>
 
 /* Module Includes */
-#include <a/afc_watchdog.hpp>
+#include <AeroFC/a/afc_watchdog.hpp>
 
 using namespace Chimera;
 using namespace Chimera::Threading;

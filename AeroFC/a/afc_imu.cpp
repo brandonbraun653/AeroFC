@@ -16,5 +16,3 @@
 /* Driver Includes */
 #include <AeroFC/a/afc_imu.hpp>
 #include <AeroFC/a/afc_imu_prj.hpp>
-
-#include <lsm9ds0/lsm9ds0.hpp>

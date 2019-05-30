@@ -1,0 +1,276 @@
+import AeroFC/lib/CommonTools/boost-build/features/thor ;
+import AeroFC/lib/CommonTools/boost-build/features/chimera ;
+import AeroFC/lib/CommonTools/boost-build/features/freertos ;
+
+# ====================================================
+# Local Rules 
+# ====================================================
+local rule explicit_alias ( name : sources * : requirements * : default-build * : usage-requirements * )
+    {
+    alias $(name) : $(sources) : $(requirements) : $(default-build) : $(usage-requirements) ;
+    explicit $(name) ;
+    }
+
+# ====================================================
+# Local Resources 
+# ====================================================
+# ------------------------------------------
+# Project Directories 
+# ------------------------------------------
+local aero_fc_inc_dir = . ;
+local dalA_src_dir = AeroFC/a ;
+local dalB_src_dir = AeroFC/b ;
+local dalC_src_dir = AeroFC/c ;
+local dalD_src_dir = AeroFC/d ;
+local dalE_src_dir = AeroFC/e ;
+local sim_src_dir = AeroFC/sim ;
+
+# ====================================================
+# Project Definition
+# ====================================================
+project AeroFlightController : usage-requirements <include>$(aero_fc_inc_dir) ;
+
+# ====================================================
+# Public Library Components
+# ====================================================
+explicit_alias PUB : : : : <include>$(aero_fc_inc_dir) ;
+
+# ====================================================
+# Design Assurance Level A Components
+# ====================================================
+# ------------------------------------------
+# Embedded target using Thor & FreeRTOS
+# ------------------------------------------
+lib DAL_A
+    :   [ glob $(dalA_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+
+    :   <Chimera>enabled-Thor
+        <FreeRTOS>enabled
+        <link>static
+        <toolset>gcc_arm_none_eabi
+        <include>$(aero_fc_inc_dir)
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/PRJ//CHIMERA_PORT             # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+
+# ------------------------------------------
+# Chimera simulator target using FreeRTOS
+# ------------------------------------------
+lib DAL_A
+    :   [ glob $(dalA_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+
+    :   <Chimera>enabled-Sim
+        <FreeRTOS>enabled
+        <link>static
+        <include>$(aero_fc_inc_dir)
+
+        <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+
+explicit DAL_A ;
+
+explicit_alias A : DAL_A ;
+
+# ====================================================
+# Design Assurance Level B Components
+# ====================================================
+# ------------------------------------------
+# Embedded target using Thor & FreeRTOS
+# ------------------------------------------
+lib DAL_B 
+    :   [ glob $(dalB_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+        /THOR//CORE
+        /THOR//CORE_PUB
+
+    :   <Chimera>enabled-Thor
+        <FreeRTOS>enabled
+        <link>static   
+        <include>$(aero_fc_inc_dir)
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/PRJ//CHIMERA_PORT             # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+explicit DAL_B ;
+
+# ------------------------------------------
+# Chimera simulator target using FreeRTOS
+# ------------------------------------------
+lib DAL_B
+    :   [ glob $(dalB_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+
+    :   <Chimera>enabled-Sim
+        <FreeRTOS>enabled
+        <link>static
+        <include>$(aero_fc_inc_dir)
+
+        <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+
+explicit_alias B : DAL_B ;
+
+# ====================================================
+# Design Assurance Level C Components
+# ====================================================
+# ------------------------------------------
+# Embedded target using Thor & FreeRTOS
+# ------------------------------------------
+lib DAL_C 
+    :   [ glob $(dalC_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+        /THOR//CORE
+        /THOR//CORE_PUB
+
+    :   <Chimera>enabled-Thor
+        <FreeRTOS>enabled
+        <link>static   
+        <include>$(aero_fc_inc_dir)
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+explicit DAL_C ;
+
+# ------------------------------------------
+# Chimera simulator target using FreeRTOS
+# ------------------------------------------
+lib DAL_C
+    :   [ glob $(dalC_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+
+    :   <Chimera>enabled-Sim
+        <FreeRTOS>enabled
+        <link>static
+        <include>$(aero_fc_inc_dir)
+
+        <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+
+explicit_alias C : DAL_C ;
+
+# ====================================================
+# Design Assurance Level D Components
+# ====================================================
+# ------------------------------------------
+# Embedded target using Thor & FreeRTOS
+# ------------------------------------------
+lib DAL_D 
+    :   [ glob $(dalD_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+        /THOR//CORE
+        /THOR//CORE_PUB
+
+    :   <Chimera>enabled-Thor
+        <FreeRTOS>enabled
+        <link>static   
+        <include>$(aero_fc_inc_dir)
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+explicit DAL_D ;
+
+# ------------------------------------------
+# Chimera simulator target using FreeRTOS
+# ------------------------------------------
+lib DAL_D
+    :   [ glob $(dalD_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+
+    :   <Chimera>enabled-Sim
+        <FreeRTOS>enabled
+        <link>static
+        <include>$(aero_fc_inc_dir)
+
+        <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+
+explicit_alias D : DAL_D ;
+
+# ====================================================
+# Design Assurance Level E Components
+# ====================================================
+# ------------------------------------------
+# Embedded target using Thor & FreeRTOS
+# ------------------------------------------
+lib DAL_E 
+    :   [ glob $(dalE_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+        /THOR//CORE
+        /THOR//CORE_PUB
+
+    :   <Chimera>enabled-Thor
+        <FreeRTOS>enabled
+        <link>static   
+        <include>$(aero_fc_inc_dir)
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+explicit DAL_E ;
+
+# ------------------------------------------
+# Chimera simulator target using FreeRTOS
+# ------------------------------------------
+lib DAL_E
+    :   [ glob $(dalE_src_dir)/*.cpp ]
+        /CHIMERA//CHIMERA_CORE
+
+    :   <Chimera>enabled-Sim
+        <FreeRTOS>enabled
+        <link>static
+        <include>$(aero_fc_inc_dir)
+
+        <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <use>/CHIMERA//PUB
+        <use>/FREERTOS//PUB
+        <use>/CHIMERA//PUB_SIM              # chimeraPort.hpp
+        <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
+        <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
+    ;
+
+explicit_alias E : DAL_E ;
