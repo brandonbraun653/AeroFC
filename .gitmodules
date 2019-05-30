@@ -1,45 +1,6 @@
-[submodule "sw/lib/Chimera"]
-	path = sw/lib/Chimera
-	url = https://github.com/brandonbraun653/Chimera.git
-[submodule "sw/lib/Drivers/FlashMemory"]
-	path = sw/lib/Drivers/FlashMemory
-	url = https://github.com/brandonbraun653/FlashMemory.git
-[submodule "sw/lib/Processor/Thor"]
-	path = sw/lib/Processor/Thor
-	url = https://github.com/brandonbraun653/Thor.git
-[submodule "sw/lib/Modules/reliance-edge"]
-	path = sw/lib/Modules/reliance-edge
-	url = https://github.com/brandonbraun653/reliance-edge.git
-[submodule "sw/lib/FreeRTOS"]
-	path = sw/lib/FreeRTOS
-	url = https://github.com/brandonbraun653/FreeRTOS.git
-[submodule "sw/lib/Processor/stm32hal_f4"]
-	path = sw/lib/Processor/stm32hal_f4
-	url = https://github.com/brandonbraun653/STM32HAL_F4.git
-[submodule "sw/lib/AeroKernel"]
-	path = sw/lib/AeroKernel
-	url = https://github.com/brandonbraun653/AeroKernel.git
-[submodule "sw/lib/sparsepp"]
-	path = sw/lib/sparsepp
-	url = https://github.com/brandonbraun653/sparsepp.git
-[submodule "sw/lib/Sensors/LSM9DS1"]
-	path = sw/lib/Sensors/LSM9DS1
-	url = https://github.com/brandonbraun653/LSM9DS1.git
-[submodule "sw/lib/Sensors/LSM9DS0"]
-	path = sw/lib/Sensors/LSM9DS0
-	url = https://github.com/brandonbraun653/LSM9DS0.git
-[submodule "sw/lib/CommonTools"]
-	path = sw/lib/CommonTools
-	url = https://github.com/brandonbraun653/CommonTools.git
 [submodule "AeroFC/lib/AeroKernel"]
 	path = AeroFC/lib/AeroKernel
 	url = https://github.com/brandonbraun653/AeroKernel.git
-[submodule "AeroFC/lib/Chimera"]
-	path = AeroFC/lib/Chimera
-	url = https://github.com/brandonbraun653/Chimera.git
 [submodule "AeroFC/lib/CommonTools"]
 	path = AeroFC/lib/CommonTools
 	url = https://github.com/brandonbraun653/CommonTools.git
-[submodule "AeroFC/lib/FreeRTOS"]
-	path = AeroFC/lib/FreeRTOS
-	url = https://github.com/brandonbraun653/FreeRTOS.git
