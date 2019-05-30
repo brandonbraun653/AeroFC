@@ -11,6 +11,10 @@
 /* C++ Includes */
 
 /* Chimera Includes */
+#include <Chimera/modules/sensors/imu/imu_intf.hpp>
 
 /* Driver Includes */
-#include <a/afc_imu.hpp>
+#include <AeroFC/a/afc_imu.hpp>
+#include <AeroFC/a/afc_imu_prj.hpp>
+
+#include <lsm9ds0/lsm9ds0.hpp>

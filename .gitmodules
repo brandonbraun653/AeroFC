@@ -31,3 +31,15 @@
 [submodule "sw/lib/CommonTools"]
 	path = sw/lib/CommonTools
 	url = https://github.com/brandonbraun653/CommonTools.git
+[submodule "AeroFC/lib/AeroKernel"]
+	path = AeroFC/lib/AeroKernel
+	url = https://github.com/brandonbraun653/AeroKernel.git
+[submodule "AeroFC/lib/Chimera"]
+	path = AeroFC/lib/Chimera
+	url = https://github.com/brandonbraun653/Chimera.git
+[submodule "AeroFC/lib/CommonTools"]
+	path = AeroFC/lib/CommonTools
+	url = https://github.com/brandonbraun653/CommonTools.git
+[submodule "AeroFC/lib/FreeRTOS"]
+	path = AeroFC/lib/FreeRTOS
+	url = https://github.com/brandonbraun653/FreeRTOS.git
