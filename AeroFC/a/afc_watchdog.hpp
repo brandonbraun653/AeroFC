@@ -19,7 +19,7 @@
 static constexpr uint32_t hwm_wd_hi_res_kick_mS    = 25;
 static constexpr uint32_t hwm_wd_hi_res_timeout_mS = 30;
 
-static constexpr uint32_t hwm_wd_lo_res_kick_mS    = 50;
+static constexpr uint32_t hwm_wd_lo_res_kick_mS    = 25;
 static constexpr uint32_t hwm_wd_lo_res_timeout_mS = 1000;
 
 /**
