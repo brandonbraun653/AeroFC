@@ -31,11 +31,6 @@ local sim_src_dir = AeroFC/sim ;
 project AeroFlightController : usage-requirements <include>$(aero_fc_inc_dir) ;
 
 # ====================================================
-# Public Library Components
-# ====================================================
-explicit_alias PUB : : : : <include>$(aero_fc_inc_dir) ;
-
-# ====================================================
 # Design Assurance Level A Components
 # ====================================================
 # ------------------------------------------
@@ -45,8 +40,9 @@ lib DAL_A
     :   [ glob $(dalA_src_dir)/*.cpp ]
         /CHIMERA//CHIMERA_CORE
 
-    :   <Chimera>enabled-Thor
+    :   <Chimera>enabled
         <FreeRTOS>enabled
+        <Thor>enabled
         <link>static
         <toolset>gcc_arm_none_eabi
         <include>$(aero_fc_inc_dir)
@@ -274,3 +270,10 @@ lib DAL_E
     ;
 
 explicit_alias E : DAL_E ;
+
+
+# ====================================================
+# Public Library Components
+# ====================================================
+explicit_alias PUB : : : : <include>$(aero_fc_inc_dir) ;
+explicit_alias CORE : DAL_A DAL_B DAL_C DAL_D DAL_E ;
