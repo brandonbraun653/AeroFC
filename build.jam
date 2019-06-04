@@ -38,7 +38,6 @@ project AeroFlightController : usage-requirements <include>$(aero_fc_inc_dir) ;
 # ------------------------------------------
 lib DAL_A
     :   [ glob $(dalA_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
 
     :   <Chimera>enabled
         <FreeRTOS>enabled
@@ -47,8 +46,13 @@ lib DAL_A
         <toolset>gcc_arm_none_eabi
         <include>$(aero_fc_inc_dir)
 
+        <library>/CHIMERA//CHIMERA_CORE
+        <library>/THOR//CORE
+        <library>/THOR//TARGET_PROPAGATED_OPTIONS
+
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
+        <use>/THOR//PUB
         <use>/PRJ//CHIMERA_PORT             # chimeraPort.hpp
         <use>/PRJ//FREERTOS_CFG             # FreeRTOSConfig.h
         <use>/PRJ//AEROFC_IMPL              # afc_xxx_prj.hpp
@@ -59,7 +63,7 @@ lib DAL_A
 # ------------------------------------------
 lib DAL_A
     :   [ glob $(dalA_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
+
 
     :   <Chimera>enabled-Sim
         <FreeRTOS>enabled
@@ -67,6 +71,8 @@ lib DAL_A
         <include>$(aero_fc_inc_dir)
 
         <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <library>/CHIMERA//CHIMERA_CORE
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
@@ -87,14 +93,15 @@ explicit_alias A : DAL_A ;
 # ------------------------------------------
 lib DAL_B 
     :   [ glob $(dalB_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
-        /THOR//CORE
-        /THOR//CORE_PUB
 
     :   <Chimera>enabled-Thor
         <FreeRTOS>enabled
         <link>static   
         <include>$(aero_fc_inc_dir)
+
+        <library>/CHIMERA//CHIMERA_CORE
+        <library>/THOR//CORE
+        <library>/THOR//TARGET_PROPAGATED_OPTIONS
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
@@ -109,7 +116,7 @@ explicit DAL_B ;
 # ------------------------------------------
 lib DAL_B
     :   [ glob $(dalB_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
+
 
     :   <Chimera>enabled-Sim
         <FreeRTOS>enabled
@@ -117,6 +124,8 @@ lib DAL_B
         <include>$(aero_fc_inc_dir)
 
         <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <library>/CHIMERA//CHIMERA_CORE
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
@@ -135,14 +144,16 @@ explicit_alias B : DAL_B ;
 # ------------------------------------------
 lib DAL_C 
     :   [ glob $(dalC_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
-        /THOR//CORE
-        /THOR//CORE_PUB
 
     :   <Chimera>enabled-Thor
         <FreeRTOS>enabled
         <link>static   
         <include>$(aero_fc_inc_dir)
+
+
+        <library>/CHIMERA//CHIMERA_CORE
+        <library>/THOR//CORE
+        <library>/THOR//TARGET_PROPAGATED_OPTIONS
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
@@ -157,7 +168,7 @@ explicit DAL_C ;
 # ------------------------------------------
 lib DAL_C
     :   [ glob $(dalC_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
+
 
     :   <Chimera>enabled-Sim
         <FreeRTOS>enabled
@@ -165,6 +176,8 @@ lib DAL_C
         <include>$(aero_fc_inc_dir)
 
         <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <library>/CHIMERA//CHIMERA_CORE
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
@@ -183,14 +196,15 @@ explicit_alias C : DAL_C ;
 # ------------------------------------------
 lib DAL_D 
     :   [ glob $(dalD_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
-        /THOR//CORE
-        /THOR//CORE_PUB
 
     :   <Chimera>enabled-Thor
         <FreeRTOS>enabled
         <link>static   
         <include>$(aero_fc_inc_dir)
+
+        <library>/CHIMERA//CHIMERA_CORE
+        <library>/THOR//CORE
+        <library>/THOR//TARGET_PROPAGATED_OPTIONS
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
@@ -205,7 +219,7 @@ explicit DAL_D ;
 # ------------------------------------------
 lib DAL_D
     :   [ glob $(dalD_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
+
 
     :   <Chimera>enabled-Sim
         <FreeRTOS>enabled
@@ -213,6 +227,8 @@ lib DAL_D
         <include>$(aero_fc_inc_dir)
 
         <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <library>/CHIMERA//CHIMERA_CORE
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
@@ -231,14 +247,15 @@ explicit_alias D : DAL_D ;
 # ------------------------------------------
 lib DAL_E 
     :   [ glob $(dalE_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
-        /THOR//CORE
-        /THOR//CORE_PUB
 
     :   <Chimera>enabled-Thor
         <FreeRTOS>enabled
         <link>static   
         <include>$(aero_fc_inc_dir)
+
+        <library>/CHIMERA//CHIMERA_CORE
+        <library>/THOR//CORE
+        <library>/THOR//TARGET_PROPAGATED_OPTIONS
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
@@ -253,7 +270,7 @@ explicit DAL_E ;
 # ------------------------------------------
 lib DAL_E
     :   [ glob $(dalE_src_dir)/*.cpp ]
-        /CHIMERA//CHIMERA_CORE
+
 
     :   <Chimera>enabled-Sim
         <FreeRTOS>enabled
@@ -261,6 +278,8 @@ lib DAL_E
         <include>$(aero_fc_inc_dir)
 
         <FreeRTOS-port>Windows:<define>NOMINMAX
+
+        <library>/CHIMERA//CHIMERA_CORE
 
         <use>/CHIMERA//PUB
         <use>/FREERTOS//PUB
